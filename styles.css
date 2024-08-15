@@ -1,0 +1,283 @@
+:root {
+    --bg-color: #2c2640;
+    --text-color: #e6e6fa;
+    --highlight-color: #9370db;
+    --secondary-bg: #000000;
+    --checkbox-bg: #4a4262;
+    --checkbox-checked-bg: #7e57c2;
+  }
+
+
+  .light-mode {
+    --bg-color: #f0e6ff;
+    --text-color: #2c2640;
+    --highlight-color: #7e57c2;
+    --secondary-bg: #d8c8ff;
+    --checkbox-bg: #b19cd9;
+    --checkbox-checked-bg: #9370db;
+  }
+
+  .logo-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mode-toggle {
+    background: none;
+    color: var(--text-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mode-toggle:hover {
+    background-color: var(--checkbox-checked-bg);
+  }
+
+  .mode-icon {
+    width: 4vw;
+    height: auto;
+    color: var(--text-color);
+    transition: transform 0.3s ease;
+  }
+  
+  .light-mode .mode-icon {
+    transform: rotate(180deg);
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: var(--secondary-bg);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 7vw;
+    height: auto;
+    margin-right: 1rem;
+  }
+  
+  .app-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  #search-container {
+    position: sticky;
+    top: 0;
+    background-color: var(--bg-color);
+    padding: 0.5rem;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #search-input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  #search-bar {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: var(--secondary-bg);
+    color: var(--text-color);
+  }
+  
+  #clear-search {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: var(--highlight-color);
+    color: var(--text-color);
+    cursor: pointer;
+  }
+  
+  #search-lyrics {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    user-select: none;
+  }
+  
+  .checkbox-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: var(--checkbox-bg);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .checkbox-container:hover .checkmark {
+    background-color: var(--checkbox-checked-bg);
+  }
+  
+  .checkbox-container input:checked ~ .checkmark {
+    background-color: var(--checkbox-checked-bg);
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .checkbox-container .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+  #back-button {
+    background-color: var(--highlight-color);
+    color: var(--text-color);
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+    font-size: 0.9rem;
+  }
+  
+  #content {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  #song-list, #lyrics-display {
+    height: 100%;
+    padding: 0.5rem;
+  }
+  
+  #songs {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #songs li {
+    background-color: var(--secondary-bg);
+    margin-bottom: 0.5rem;
+    padding: 0.6rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #songs li:hover {
+    background-color: var(--highlight-color);
+  }
+  
+  #songs li .title {
+    font-weight: bold;
+  }
+  
+  #songs li .artist {
+    color: var(--highlight-color);
+  }
+  
+  #songs li .preview {
+    font-style: italic;
+    color: var(--text-color);
+    opacity: 0.8;
+    margin-top: 0.3rem;
+  }
+  
+  #song-title {
+    margin-bottom: 0.2rem;
+    font-size: 1.4rem;
+  }
+  
+  #song-artist {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--highlight-color);
+    cursor: pointer;
+  }
+  
+  #song-artist:hover {
+    text-decoration: underline;
+  }
+  
+  #song-lyrics {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  footer {
+    background-color: var(--footer-bg);
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    #content {
+      display: flex;
+    }
+  
+    #song-list {
+      width: 40%;
+      height: 100%;
+    }
+  
+    #lyrics-display {
+      width: 60%;
+      height: 100%;
+      padding-right: 0.5rem;
+    }
+  
+    #back-button {
+      display: none;
+    }
+  }
+
+  

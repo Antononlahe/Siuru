@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vironia Lauluraamat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+          <img src="https://upload.wikimedia.org/wikipedia/en/7/78/Coat_of_arms_of_corporation_Vironia.png" alt="Logo" class="logo">
+          <h1 class="app-name">Vironia lauluraamat</h1>
+        </div>
+        <button id="mode-toggle" class="mode-toggle" aria-label="Toggle dark/light mode">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mode-icon">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </header>
+    <div id="search-container">
+        <div id="search-input-container">
+            <input type="text" id="search-bar" placeholder="Search songs...">
+            <button id="clear-search">Clear</button>
+            <label class="checkbox-container">
+                Otsi sõnades
+                <input type="checkbox" id="search-lyrics">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <button id="back-button">Back to List</button>
+    </div>
+    <div id="content">
+        <div id="song-list">
+            <ul id="songs"></ul>
+        </div>
+        <div id="lyrics-display">
+            <h2 id="song-title"></h2>
+            <h3 id="song-artist"></h3>
+            <pre id="song-lyrics"></pre>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
