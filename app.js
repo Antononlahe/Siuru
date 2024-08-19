@@ -1,11 +1,16 @@
 let songs = [];
 
 async function loadSongs() {
-    const response = await fetch('songs.yaml');
-    const yamlText = await response.text();
-    songs = jsyaml.load(yamlText);
-    displaySongs(songs);
-    handleUrlParams();
+    try {
+        const response = await fetch('songs.yaml');
+        const yamlText = await response.text();
+        songs = jsyaml.load(yamlText);
+        console.log('Loaded songs:', songs); // Add this line for debugging
+        displaySongs(songs);
+        handleUrlParams();
+    } catch (error) {
+        console.error('Error loading songs:', error);
+    }
 }
 
 function getFirstFourWords(text) {
@@ -36,6 +41,7 @@ function displaySongs(songsToDisplay) {
         li.onclick = () => displayLyrics(song);
         songList.appendChild(li);
     });
+    console.log('Displayed songs:', songsToDisplay.length);
 }
 
 function displayLyrics(song) {
@@ -91,12 +97,13 @@ function performSearch() {
     } else {
         filteredSongs = songs.filter(song => {
             const titleMatch = song.title.toLowerCase().includes(searchTerm);
-            const artistMatch = song.artist.toLowerCase().includes(searchTerm);
+            const artistMatch = song.artist && song.artist.toLowerCase().includes(searchTerm);
             const lyricsMatch = searchLyrics && song.lyrics.toLowerCase().includes(searchTerm);
             return titleMatch || artistMatch || lyricsMatch;
         });
     }
     
+    console.log('Search term:', searchTerm, 'Results:', filteredSongs.length); // Add this line for debugging
     displaySongs(filteredSongs);
     
     // Update URL with search term

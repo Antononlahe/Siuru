@@ -184,10 +184,10 @@
     font-size: 0.9rem;
   }
   
-  #content {
-    flex: 1;
-    overflow-y: auto;
-  }
+    #content {
+        flex: 1;
+        overflow-y: auto;
+    }
   
   #song-list, #lyrics-display {
     height: 100%;
