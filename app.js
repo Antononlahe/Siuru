@@ -5,7 +5,7 @@ async function loadSongs() {
         const response = await fetch('songs.yaml');
         const yamlText = await response.text();
         songs = jsyaml.load(yamlText);
-        console.log('Loaded songs:', songs); // Add this line for debugging
+        console.log('Loaded songs:', songs); // Debugging
         displaySongs(songs);
         handleUrlParams();
     } catch (error) {
@@ -28,10 +28,28 @@ function displaySongs(songsToDisplay) {
         title.className = 'title';
         li.appendChild(title);
         
-        const artist = document.createElement('span');
-        artist.textContent = song.artist;
-        artist.className = 'artist';
-        li.appendChild(artist);
+
+        const artists = document.createElement('span');
+        artists.className = 'artists';
+        
+        // Handle both single artist (string) and multiple artists (array) cases
+        const artistList = Array.isArray(song.artist) ? song.artist : [song.artist];
+        
+        artistList.forEach((artist, index) => {
+            const artistSpan = document.createElement('span');
+            artistSpan.textContent = artist;
+            artistSpan.className = 'artist';
+            artistSpan.onclick = (e) => {
+                e.stopPropagation();
+                searchByArtist(artist);
+            };
+            artists.appendChild(artistSpan);
+            if (index < artistList.length - 1) {
+                artists.appendChild(document.createTextNode(', '));
+            }
+        });
+        li.appendChild(artists);
+
         
         const preview = document.createElement('div');
         preview.textContent = getFirstFourWords(song.lyrics) + '...';
@@ -52,10 +70,22 @@ function displayLyrics(song) {
     }
     document.getElementById('song-title').textContent = song.title;
     const artistElement = document.getElementById('song-artist');
-    artistElement.textContent = song.artist;
-    artistElement.onclick = () => searchByArtist(song.artist);
-    document.getElementById('song-lyrics').textContent = song.lyrics;
+    artistElement.innerHTML = '';
     
+    // Handle both single artist (string) and multiple artists (array) cases
+    const artistList = Array.isArray(song.artist) ? song.artist : [song.artist];
+    
+    artistList.forEach((artist, index) => {
+        const artistSpan = document.createElement('span');
+        artistSpan.textContent = artist;
+        artistSpan.onclick = () => searchByArtist(artist);
+        artistElement.appendChild(artistSpan);
+        if (index < artistList.length - 1) {
+            artistElement.appendChild(document.createTextNode(', '));
+        }
+    });
+    document.getElementById('song-lyrics').textContent = song.lyrics;
+
     // Update URL with song title
     const url = new URL(window.location);
     url.searchParams.set('song', encodeURIComponent(song.title));
@@ -87,27 +117,28 @@ document.getElementById('back-button').onclick = () => {
 function performSearch() {
     const searchTerm = document.getElementById('search-bar').value.toLowerCase();
     const searchLyrics = document.getElementById('search-lyrics').checked;
-    
+
     let filteredSongs;
     if (searchTerm.startsWith('a:')) {
         const artistSearchTerm = searchTerm.slice(2).trim();
-        filteredSongs = songs.filter(song => 
-            song.artist.toLowerCase().includes(artistSearchTerm)
-        );
+        filteredSongs = songs.filter(song => {
+            const artistList = Array.isArray(song.artist) ? song.artist : [song.artist];
+            return artistList.some(artist => artist && artist.toLowerCase().includes(artistSearchTerm));
+        });
     } else {
         filteredSongs = songs.filter(song => {
-            const titleMatch = song.title.toLowerCase().includes(searchTerm);
-            const artistMatch = song.artist && song.artist.toLowerCase().includes(searchTerm);
-            const lyricsMatch = searchLyrics && song.lyrics.toLowerCase().includes(searchTerm);
+            const artistList = Array.isArray(song.artist) ? song.artist : [song.artist];
+            const titleMatch = song.title && song.title.toLowerCase().includes(searchTerm);
+            const artistMatch = artistList.some(artist => artist && artist.toLowerCase().includes(searchTerm));
+            const lyricsMatch = searchLyrics && song.lyrics && song.lyrics.toLowerCase().includes(searchTerm);
             return titleMatch || artistMatch || lyricsMatch;
         });
     }
-    
-    console.log('Search term:', searchTerm, 'Results:', filteredSongs.length); // Add this line for debugging
+
+    console.log('Search term:', searchTerm, 'Results:', filteredSongs.length);
     displaySongs(filteredSongs);
-    
-    // Update URL with search term
-    const url = new URL(window.location);
+
+    const url = new URL(window.location.href);
     url.searchParams.set('search', encodeURIComponent(searchTerm));
     window.history.pushState({}, '', url);
 }

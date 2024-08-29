@@ -93,7 +93,9 @@
     Ahoi, ahoi ja veri oli kuum!
 
 - title: Mutionu pidu
-  artist: Alide Dahlberg, August Kiiss
+  artist: 
+    - Alide Dahlberg
+    - August Kiiss
   lyrics: |
     Elas metsas muti-onu
     Keset kuuski noori, vanu,
@@ -211,7 +213,9 @@
     ja mind võlunud sa.
 
 - title:  Iga mees on oma saatuse sepp 
-  artist: Paul-Eerik Rummo, Uno Naissoo 
+  artist: 
+    - Paul-Eerik Rummo
+    - Uno Naissoo 
   lyrics: |
     Iga mees on oma saatuse sepp
     ja oma õnne valaja.
@@ -279,3 +283,726 @@
     lähestikku õnnelikud näod.
 
     Refr. Seepärast palun, isa …
+
+
+- title: Korp! Vironia lipulaul
+  artist: 
+    - Karl Eduard Sööt
+    - Aleksander Läte
+  lyrics: |
+    Vennad, siin on venna käsi,
+    ühisuses edasi!
+    Üks meil rahvas, keel ja kodu,
+    kallid kuni surmani!
+    Neile tuksub meie süda
+    kõikumata kindluses!
+    Neile palju õnne, edu
+    andku taevas ülevalt!
+    Aus on meie püüd ja lootus,
+    aus kui meie rahvaski,
+    ühisuses kindlalt, vennad,
+    ausat rada edasi!
+
+
+- title: Eesti hümn
+  artist: 
+    - Johann Voldemar Jannsen
+    - Friedrich Pacius
+  lyrics: |
+    Mu isamaa, mu õnn ja rõõm,
+    kui kaunis oled sa!
+    Ei leia mina iial teal
+    see suure, laia ilma peal,
+    mis mul nii armas oleks ka,
+    kui sa, mu isamaa!
+    
+    Sa oled mind ju sünnitand
+    ja üles kasvatand!
+    Sind tänan mina alati
+    ja jään sul truiks surmani!
+    Mul kõige armsam oled sa,
+    mu kallis isamaa!
+    Su üle Jumal valvaku,
+    mu armas isamaa!
+    
+    Ta olgu sinu kaitseja
+    ja võtku rohkest' õnnista',
+    mis iial ette võtad sa,
+    mu kallis isamaa!
+
+
+- title: Leedu hümn
+  artist: Vincas Kudirka
+  lyrics: |
+    Lietuva, Tėvyne mūsų,
+    Tu didvyrių žeme,
+    Iš praeities Tavo sūnūs
+    Te stiprybę semia.
+
+    Tegul Tavo vaikai eina
+    Vien takais dorybės,
+    Tegul dirba Tavo naudai
+    Ir žmonių gėrybei.
+
+    Tegul saulė Lietuvoj
+    Tamsumas prašalina,
+    Ir šviesa, ir tiesa
+    Mūs žingsnius telydi.
+
+    Tegul meilė Lietuvos
+    Dega mūsų širdyse,
+    Vardan tos, Lietuvos
+    Vienybė težydi!
+
+
+- title: Läti hümn
+  artist: Kārlis Baumanis
+  lyrics: |
+    Dievs, svētī Latviju!
+    Mūs' dārgo tēviju
+    Svētī jel Latviju
+    Ak, svētī jel to!
+
+    Kur latvju meitas zied
+    Kur latvju dēli dzied
+    Laid mums tur laimē diet
+    Mūs' Latvijā!
+
+
+- title: Poola hümn
+  artist: Józef Wybicki
+  lyrics: |
+    Jeszcze Polska nie zginęła,
+    Kiedy my żyjemy.
+    Co nam obca przemoc wzięła,
+    Szablą odbierzemy.
+
+      Marsz, marsz, Dąbrowski,
+      Z ziemi włoskiej do Polski.
+      Za twoim przewodem
+      Złączym się z narodem.
+
+    Przejdziem Wisłę, przejdziem Wartę,
+    Będziem Polakami.
+    Dał nam przykład Bonaparte,
+    Jak zwyciężać mamy.
+
+      Marsz, marsz, Dąbrowski,
+      Z ziemi włoskiej do Polski.
+      Za twoim przewodem
+      Złączym się z narodem.
+
+    Jak Czarniecki do Poznania
+    Po szwedzkim zaborze,
+    Dla ojczyzny ratowania
+    Wrócim się przez morze.
+
+      Marsz, marsz, Dąbrowski,
+      Z ziemi włoskiej do Polski.
+      Za twoim przewodem
+      Złączym się z narodem.
+
+    Już tam ojciec do swej Basi
+    Mówi zapłakany -
+    Słuchaj jeno, pono nasi
+    Biją w tarabany.
+
+      Marsz, marsz, Dąbrowski,
+      Z ziemi włoskiej do Polski.
+      Za twoim przewodem
+      Złączym się z narodem.
+
+
+- title: Rootsi hümn
+  artist: Richard Dybeck
+  lyrics: |
+    Du gamla, du fria, du fjällhöga Nord,
+    du tysta, du glädjerika sköna!
+    Jag hälsar dig, vänaste land uppå jord,
+    :,: din sol, din himmel, dina ängder gröna. :,:
+
+    Du tronar på minnen från fornstora da'r,
+    då ärat ditt namn flög över jorden.
+    Jag vet att du är och du blir, vad du var,
+    :,: ja, jag vill leva, jag vill dö i Norden! :,:
+
+- title: Saksa hümn
+  artist: 
+    - August Heinrich Hoffmann von Fallersleben
+    - Joseph Haydn
+  lyrics: |
+    Einigkeit und Recht und Freiheit
+    Für das deutsche Vaterland!
+    Danach lasst uns alle streben
+    Brüderlich mit Herz und Hand!
+    Einigkeit und Recht und Freiheit
+    Sind des Glückes Unterpfand.
+    :,: Blüh im Glanze dieses Glückes,
+    Blühe, deutsches Vaterland! :,:
+
+- title: Soome hümn
+  artist: 
+    - Johan Ludvig Runeberg
+    - Fredrik Pacius
+  lyrics: |
+    Oi maamme, Suomi, synnyinmaa!
+    Soi sana kultainen!
+    Ei laaksoa, ei kukkulaa,
+    ei vettä, rantaa rakkaampaa,
+    kuin kotimaa tää pohjoinen,
+    maa kallis isien!
+    Sun kukoistukses kuorestaan
+    kerrankin puhkeaa!
+    Viel' lempemme saa nousemaan
+    sun toivos, riemus loistossaan,
+    ja kerran laulus, synnyinmaa,
+    korkeemman kaiun saa!
+
+
+- title: Ungari hümn
+  artist: 
+    - Ferenc Kölcsey
+    - Ferenc Erkel
+  lyrics: |
+    Isten áldd meg a magyart
+    Jó kedvvel, böséggel,
+    Nyûjts feléje védö kart,
+    Ha küzd ellenségel;
+    Balsors akit régen tép,
+    Hozz reâ vig esztendöt,
+    Megbünhödte már e nép
+    A mûltat sjövendöt.
+
+
+- title: Hellad Vennad
+  artist: 
+    - Mihkel Veske
+    - Wolfgang Amadeus Mozart
+  lyrics: |
+    Hellad vennad, astkem kokku
+    rõõmupidu laua ümber,
+    tõstkem kannud, tõstkem klaasid,
+    laskem noorust elada!
+
+    Lapsepõlve kaunis lootus,
+    mis meil muiste põues kasvas
+    mängimisel pehmel murul,
+    ärka jälle ülesse!
+    
+    Laena julgust, laena jõudu
+    targa tööde toimetusel,
+    vahvusta sa meie vaimu
+    õnnistuseks isamaal'!
+    
+    Hellad vennad, tõstkem kannud
+    nende meeste mälestuseks,
+    kes on tähtsa' tegudega
+    Eesti põlve parandand!
+    
+    Hellad vennad, joogem jälle
+    nende hella emadele,
+    kes on kandnud kangeid poegi,
+    kauneid tütreid kiigutand.
+
+    Joogem noorte neidudele,
+    tõstkem üles kannud, klaasid,
+    kübart keerutades hüüdkem:
+    "Eesti neiud elagu!"
+    
+    Täitkem kannud ääretasa,
+    ohverdagem Eesti mullal',
+    mis on muistsel ajal joonud
+    vahva eesti meeste verd.
+    
+    Hellad vennad, joogem jälle,
+    sest veel elab eesti sugu,
+    kasvatades kangeid poegi 
+    Eesti sugu elagu!
+
+
+- title: Kus eesti rinnus tuksub julge süda
+  artist: 
+    - Martin Lipp
+    - Prantsuse rahvaviis
+  lyrics: |
+    Kus eesti rinnus tuksub julge süda,
+    kus veri soontes kuumalt lainetab,
+    ei hirmuta meid surmaoht, ei häda,
+    üks elunõue meelt meil ühendab:
+
+      Ei vaen, ei sõjakärin,
+      ei välk, ei kõuemürin
+      :,: me noore ea rammu raugenda,
+      kui võitlema meid kutsub isamaa! :,:
+
+    Tal truudust Taara tamme tüvel vand'ke,
+    ning ühtsust kindlaks kilbiks kihlake.
+    Suud Eesti verel väetud pinnal' andke
+    ja koidukumal laulge rõõmsasti:
+
+      Ei vaen, ei sõjakärin,
+      ei välk, ei kõuemürin
+      :,: me noore ea rammu raugenda,
+      kui võitlema meid kutsub isamaa! :,:
+
+    Ka sulle tõotab sõstrasilmi neiu,
+    siin kõikumata kindlust hing ja huul,
+    ma olen siis veel sinu armas peiu,
+    kui hauakalmul ulub vilu tuul.
+
+      Ei vaen, ei sõjakärin,
+      ei välk, ei kõuemürin
+      :,: me noore ea rammu raugenda,
+      kui võitlema meid kutsub isamaa! :,:
+
+    Oh taevatähed, tulge tunnistuseks,
+    siin pühaduse vannet vannume:
+    me isamaale tuluks, õnnistuseks
+    me jõud ja elu olgu pühend'ud!
+
+      Ei vaen, ei sõjakärin,
+      ei välk, ei kõuemürin
+      :,: me noore ea rammu raugenda,
+      kui võitlema meid kutsub isamaa! :,:
+
+
+- title: Gaudeamus Igitur
+  artist: Christian Wilhelm Kindleben
+  lyrics: |
+    :,: Gaudeamus igitur,
+    iuvenes dum sumus! :,:
+    Post iucundam iuventutem,
+    post molestam senectutem
+    :,: nos habebit humus! :,:
+
+    :,: Ubi sunt, qui ante nos
+    in mundo fuere? :,:
+    Vadite ad superos,
+    transite ad inferos,
+    :,: ubi iam fuere. :,:
+
+    :,: Vita nostra brevis est,
+    brevi finietur, :,:
+    venit mors velociter,
+    rapit nos atrociter,
+    :,: nemini parcetur. :,:
+
+    :,: Vivat academia,
+    vivant professores! :,:
+    Vivat membrum quodlibet,
+    vivant membra quaelibet,
+    :,: semper sint in flore! :,:
+
+    :,: Vivant omnes virgines,
+    faciles, formosae, :,:
+    vivant et mulieres,
+    tenerae, amabiles,
+    :,: atque laboriosae! :,:
+
+    :,: Vivat et respublica
+    et qui illam regit, :,:
+    vivat nostra civitas,
+    maecenatum caritas,
+    :,: quae nos hic protegit! :,:
+
+    :,: Pereat tristitia,
+    pereant osores, :,:
+    pereat diabolus,
+    quivis antiburschius,
+    :,: atque irrisores! :,:
+
+
+- title: Vaigistage kõne kõmu
+  artist: 
+  lyrics: |
+    Vaigistage kõne kõmu,
+    kuulge tõsist laulu nüüd,
+    kuulge, sõbrad, tõe sõnu,
+    mehed, tõe laulu mõnu,
+    :,: kõla :,: vastu koori hüüd!
+    
+    Kes ei tea, ega pea
+    lugu mehe väärtusest,
+    ärgu meie märki kandku,
+    meie vennasvannet vandku,
+    rüvetagu mõõka meil.
+
+    :,: Siin on karik, võta kätte,
+    vahutavat viina täis,
+    pühendatud mõõk sa võta,
+    katet läbi pistma tõtta,
+    jooma, jooma V i r o n i a
+    õitsmiseks!
+    Vaatke, läigib minu käes 
+    mõõk nii puhas, hiilgav, aus!
+    Katte mina torkan läbi,
+    iialgi ei tee tal häbi,
+    tõotan, tõotan mõõgal hoides käe! :,:
+
+    Tule, hiilgav piduteras,
+    :,: vaba meeste kaitse sa! :,:
+    Meie katteid pikas reas
+    :,: omal teral kannad sa! :,:
+    Katteid vabastada võtke,
+    päid meil ehtigu nad nüüd,
+    teise piduni siis laske
+    mõõgal rahus puhata.
+
+    :,: Siin võta sa,
+    me päid nüüd tah'me ehti,
+    su kattel mõõka hoida, 
+    mu vaenlane, kes teotab sind!
+    Kus iial üksteist näeme,
+    me ikka vennaks jääme,
+    "Mu vennas, N. N.,elagu!" :,:
+
+    Mine nüüd sa puhkusele,
+    :,: pidu pühendaja mõõk! :,:
+    Igaüks meist olgu parem
+    :,: kuni teise piduni! :,:
+    Õnne neil', kes isadele
+    püüdis olla sarnane.
+    Ärgu tõstku mõõka keegi,
+    kes ei ole mõõka väärt!
+
+
+- title: Korp! Vironia värvilaul
+  artist: vil! Roman Toi
+  lyrics: |
+    Ühisuses laulgem, vennad,
+    uutele, kes meeste seas.
+    :,: Soovime, et elu kannab
+    alati teid esireas. :,:
+    
+    Kõikumatu on me tahe
+    nõuda julgust, südidust,
+    :,: Kuigi elumure-rahe
+    ähvardab te püsivust. :,:
+    
+    Violett ja must ja valge
+    katku ainult meeste päid.
+    :,: Mõttes, teos nii aus kui julge
+    olgu mees, kes kannab neid. :,:
+    
+    Truudust vannun värvidele,
+    mis on katnud meeste päid.
+    :,: Ühisus ja kindlus, ausus
+    juhtigu ka meie teid! :,:
+
+
+- title: Aeg kaob kiirelt, ligemale liigub
+  artist: 
+    - Ants Simm
+    - Karl August Hindrey
+  lyrics: |
+    Aeg kaob kiirelt, ligemale liigub
+    meil' vaiksel sammul lahkumise tund.
+    Su elupaat siis kaugel laintel kiigub
+    ja sõprusringist näed sa vaikselt und.
+    Aeg kallis on, sest iialgi
+    ei tule ta meil' tagasi!
+    Me lahkume, elagem hästi!
+    
+    :,: Me vendeks jääme igavesti :,:
+    Nii kaob õnn  kui metsik elulaine,
+    mis kõrgelt lööb ja alla vahutab;
+    mis armastasid, ei seda sina vaene
+    nüüd enam näe  aeg sellest lahutab.
+    Klaas kätte, sõber, sõbrale,
+    veel joome õnne järele!
+    Me loodame, et lahkumine
+    :,: on kord veel jällenägemine! :,:
+
+
+- title: Aeg läheb, aga õnn ei kao
+  artist: Filmist "Suvi"
+  lyrics: |
+    Aeg läheb, aga õnn ei kao,
+    kui ise oled mees:
+    :,: su elusaatuse üks ots
+    on sinu enda käes! :,:
+    
+    Siin suve leilis higistan
+    ja keres lõõmab põud
+    :,: ja armastus südant pigistab
+    peaaegu et ülejõu. :,:
+    
+    Kui aga kallim musitab,
+    siis kaob kõik elu nöök:
+    :,: töö parasjagu väsitab
+    ja maitseb jook ja söök! :,:
+    
+    Pead kätte saama oma jao
+    maa peal ja eluteel.
+    Pead kätte saama oma jao
+    ja ette saama rõõmsa näo,
+    :,: aeg läheb, aga õnn ei kao,
+    kui ise oled mees! :,:
+
+
+- title: Alati olen mina lustilik, lustilik
+  artist: Rahvalik
+  lyrics: |
+    Alati olen mina lustilik, lustilik,
+    alati meeldib mul viin,
+    :,: et tema küll natuke uimastav, joovastav,
+    sellest ei ole suurt lugu. :,:
+
+        :,: Laevakõrts oli kõrgel mäel
+        ja puped tantsid särgi väel. :,:
+    
+    Alati olen mina lustilik, lustilik,
+    alati meeldib mul tants,
+    :,: et ta küll natuke väsitav, väsitav,
+    sellest ei ole suurt lugu. :,:
+    
+      :,: Mann tantsis tsimmikingad jalas,
+      kingad helekollased. :,:
+    
+    Alati olen mina lustilik, lustilik,
+    alati meeldib mul naine,
+    :,: et tema küll natuke toriseb, poriseb,
+    sellest ei ole suurt lugu. :,:
+    
+      :,: Üle õue naabri Neti
+      kinkis mulle uuriketi. :,:
+    
+    Alati olen mina lustilik, lustilik,
+    alati meeldib mul voodi,
+    :,: et ta küll natuke kõigutab, kiigutab,
+    sellest ei ole suurt lugu. :,:
+    
+      Mann oli siin ja Mann oli seal
+      ja Mann oli iga ukse peal,
+      Manni toas kõlas pill
+      ja Mann oli nagu roosilill.
+
+
+- title: Algamas pidu
+  artist: Christian Wilhelm Kindleben
+  lyrics: |
+    Algamas pidu 
+    poisid meil täna mölluks lääb!
+    Koondagem ridu!
+    Nõrk koju jääb.
+    
+      Edite, bibite collegiales 
+      post multa saecula pocula nulla!
+    
+    Nooruse tõtt eks
+    kätke need sõnad enda sees:
+    ei elu mõtteks
+    ole askees!
+    
+      Edite, bibite collegiales 
+      post multa saecula pocula nulla!
+
+    Sest rõõmulauda
+    istkem kui aeg on selleks ant 
+    ennem kui hauda
+    oleme kant.
+    
+      Edite, bibite collegiales 
+      post multa saecula pocula nulla!
+
+    Keisrite krooni õige mees
+    ikka põlastab,
+    kuid uhke krooni
+    Bakchos meilt saab.
+    
+      Edite, bibite collegiales 
+      post multa saecula pocula nulla!
+
+    Joogem ja söögem 
+    hästi meil maitsku iga sõõm!
+    Klaasid kokku löögem 
+    elagu rõõm!
+
+      Edite, bibite collegiales 
+      post multa saecula pocula nulla!
+
+- title: Ants oli aus saunamees
+  artist: Rahvalik
+  lyrics: |
+    Ants oli aus saunamees,
+    saun oli paksu metsa sees,
+    hundid, karud käisid sees,
+    rebane istus katusel.
+    
+      Ai juudi-valleraa!
+      Üks juut läks Tallinna,
+      kuid raha polnud tal,
+      ta sõitis pingi all.
+    
+    Ants läks mõisa kaebama
+    suure uhke tõllaga:
+    seitse siga tõlla ees,
+    vana emis kõige ees.
+     
+      Ai juudi-valleraa!
+      Üks juut läks Tallinna,
+      kuid raha polnud tal,
+      ta sõitis pingi all.
+       
+    Puupöör oli püksi ees,
+    sassis habe rinna ees.
+    Samblatort oli piibu sees,
+    siiski oli kõigist ees.
+    
+      Ai juudi-valleraa!
+      Üks juut läks Tallinna,
+      kuid raha polnud tal,
+      ta sõitis pingi all.
+    
+
+- title: Armastusel kummalised teed
+  artist: Raimond Valgre, Albert Vennola
+  lyrics: |
+    Armastusel kummalised teed,
+    armud vahel päeval, armud ööl.
+    Tihti on kuuvalgus uue õnne algus 
+    minul aga juhtus see...
+
+    Kui läbi raske vihmasaju tormas
+    kevadine tuuleiil.
+    Töölt tulin ja mind saatsid koju,
+    ümber sul mu mantlisiil.
+
+    Ei järgi jäänud vihmasadu hetkeks,
+    tilga järel langes tilk.
+    Meil aga lõbusamaks retkeks
+    saabun'd sobiv silmapilk.
+
+    Ilm hämardus, kui loojus päike,
+    me kohal taevas tinahall.
+    Su silmist aga leidsin läike,
+    mis rõõmus, soe ja paitav hell.
+
+    Nüüd päiksepaiste hajutanud pilved,
+    hõiskab pargis laululind.
+    Mul meelde jääb, mil saatsid koju
+    läbi saju, kallim, mind.
+
+
+- title: Armastusest olen tüdin'd
+  artist: I. Kálmáni operettist "Silva"
+  lyrics: |
+    Armastusest olen tüdin'd,
+    seda ma nüüd näen.
+    Neidudest nüüd loobun ma,
+    nendest loobun ma.
+    Kui ka tuhat südant murran,
+    ikka külmaks jään.
+    Kogu naisteilmaga lõpuarve teen.
+    Vabalt vanapoistega noorelt ühinen.
+    Minu otsus kindel mul 
+    armastusega on null.
+
+      Kuid, just, ilma naisteta on kurb maailm.
+      Ka roosil päikeseta tundub külm.
+      Siis siin ja seal kus juhib meel,
+      :,: ma suudlen veel. :,:
+      Kuid, jah, ilma naisteta on kurb maailm.
+      Ka roosil päikeseta tundub külm.
+      Annan ma oma sõna 
+      neidude päralt mina, kel tuju alati hea!
+
+    Abiellu oleks astun'd juba ammugi.
+    Kuid julgust pole sugugi,
+    pole sugugi.
+    Naiste seast ma oleks leidnud ju nii mõndagi,
+    kuid mind sõber hoiatas,
+    mis mul meelde jäi 
+    et naisega tood majja sa kodupolitsei.
+    Tunnistan teil häbita 
+    naist ei võta iial ma.
+
+
+- title: Armsad sõbrad, tõstkem kannud
+  artist:
+  - vil! H. Päärt
+  - vil! M. Jakobson
+  lyrics: |
+    Armsad sõbrad, tõstkem kannud
+    vahutavat märjukest.
+    Isad õlle meile andnud,
+    uputada kurvastust.
+
+    Kulla vennas, ole julge
+    kallistades neiukest!
+    Kena neidu ikka suudle,
+    siis ei tunne igavust!
+    
+    Sõber haljast mõõka hoia,
+    ausat vara, ainukest!
+    Vaenlasele häda hüüa,
+    ära oota julgustust.
+
+
+- title: Armsad sõbrad, võtkem kuulda
+  artist: Rahvalik
+  lyrics: |
+    Armsad sõbrad, võtkem kuulda,
+    trillalla, trullalla!
+    Mis ma tahan teile laulda, trillalla,trullalla!
+    Oma väiksest piibust ma
+    tahan teile rääkida.
+    Trillalla, trullalla!
+    :,: Sind mina ikka armastan! :,:
+
+    Kui ma õhtul voodi heidan, trillalla,trullalla!
+    Oma piibu kaissu võtan, trillalla, trullalla!
+    Magust musu annan tall',
+    sest et naine puudub mul.
+    Trillalla, trullalla!
+    :,: Sind mina ikka armastan! :,:
+
+    Kui ma ükskord naise võtan, trillalla, trullalla!
+    Siis ma temalt kohe nõuan: trillalla,trullalla!
+    "Minu piipu pead sa
+    iga nädal pesema!"
+    Trillalla, trullalla!
+    :,: Sind mina ikka armastan! :,:
+
+    Kui vast naistel lapsed nut'vad, trillalla, trullalla!
+    Siis nad vitstega neid pek'svad, trillalla,trullalla!
+    Ei ma peksa vitsaga,
+    annan piibukabaga!
+    Trillalla, trullalla!
+    :,: Sind mina ikka armastan! :,:
+
+    Kui ma ükskord ära suren, trillalla, trullalla!
+    Kirjutage risti pääle, trillalla, trullalla!
+    Siin hingab piip ja piibumees,
+    kes eluaeg oli suitsu sees.
+    Trillalla, trullalla!
+    :,: Sind mina ikka armastan! :,:
+
+
+- title: 
+  artist: 
+  lyrics: |
+
+
+- title: 
+  artist: 
+  lyrics: |
+
+
+- title: 
+  artist: 
+  lyrics: |
+
+- title: 
+  artist: 
+  lyrics: |
+
+
+- title: 
+  artist: 
+  lyrics: |
+
+
+- title: 
+  artist: 
+  lyrics: |
