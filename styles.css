@@ -69,6 +69,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 10vh;
   }
   
   .logo {
@@ -90,6 +91,7 @@
     z-index: 10;
     display: flex;
     flex-direction: column;
+    height: 6vh;
   }
   
   #search-input-container {
@@ -182,6 +184,7 @@
     cursor: pointer;
     align-self: flex-start;
     font-size: 0.9rem;
+    right: 10px;
   }
   
     #content {
@@ -256,9 +259,10 @@
   footer {
     background-color: var(--secondary-bg);
     color: var(--text-color);
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     margin-top: auto;
+    height: 5vh;
   }
   
   @media (min-width: 768px) {
@@ -268,18 +272,44 @@
   
     #song-list {
       width: 40%;
-      height: 100%;
+      height: 79vh; /* Adjust based on your header and footer height */
+      overflow-y: auto;
     }
   
     #lyrics-display {
       width: 60%;
-      height: 100%;
+      height: 79vh; /* Adjust based on your header and footer height */
+      position:relative;
+      right: 0;
+      overflow-y: auto;
       padding-right: 0.5rem;
+      background-color: var(--bg-color);
     }
   
     #back-button {
       display: none;
     }
+  }
+
+  #song-list::-webkit-scrollbar,
+  #lyrics-display::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  #song-list::-webkit-scrollbar-track,
+  #lyrics-display::-webkit-scrollbar-track {
+    background: var(--secondary-bg);
+  }
+
+  #song-list::-webkit-scrollbar-thumb,
+  #lyrics-display::-webkit-scrollbar-thumb {
+    background: var(--highlight-color);
+    border-radius: 5px;
+  }
+
+  #song-list::-webkit-scrollbar-thumb:hover,
+  #lyrics-display::-webkit-scrollbar-thumb:hover {
+    background: var(--checkbox-checked-bg);
   }
 
   
