@@ -109,7 +109,7 @@
     color: var(--text-color);
   }
   
-  #clear-search {
+  #clear-search, #back-button {
     padding: 0.5rem;
     border: none;
     border-radius: 0 5px 5px 0;
@@ -312,4 +312,3 @@
     background: var(--checkbox-checked-bg);
   }
 
-  
