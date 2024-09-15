@@ -1078,7 +1078,9 @@
       Ahoi, ahoi ja veri oli kuum! :,:
 
 - title: Joogilaul
-  artist: Uno Kreen, Fredrik Pacius 
+  artist: 
+    - Uno Kreen
+    - Fredrik Pacius 
   lyrics: |
     Ei me või janus olla 
     vaid kohe klaasi kalla
@@ -1094,8 +1096,8 @@
 
 - title: Ei mina karda allveepaati
   artist: 
-  - Heino Mikiver
-  - Rahvalik viis
+    - Heino Mikiver
+    - Rahvalik
   lyrics: |
     Ei mina karda allveepaati,
     vilistan, kui näen granaati! Põmm!
@@ -1282,6 +1284,449 @@
       elu on sinuga suur lilleaed!
     
 
+- title: Valged Roosid
+  artist: 
+    - Vally Ojavere
+    - Fred Spielman
+  lyrics: |
+    Ei tee mind kurvaks see, mis läind, ja milleks?
+    Mul on üks päev, mis meelest eal ei kao:
+    kui murdsin sinu sülle tõrksaid lilli,
+    ei mõelnud vaid, et mälestuste jaoks.
+    
+      Valgeid roose, valgeid roose,
+      neid, mis ääristasid aiateed.
+      Tõin ka teisi kauneid õisi,
+      kuid su süles meelde jäid vaid need.
+    
+    Sa hoiad süles neid mu igal sammul,
+    neis alles jääb üks ammu möödun'd päev
+    ja aeda, mis on rohtun'd juba ammu,
+    sa jäidki seisma, lõhnav sülem käes.
+
+      Valgeid roose, valgeid roose,
+      neid, mis ääristasid aiateed.
+      Tõin ka teisi kauneid õisi,
+      kuid su süles meelde jäid vaid need.
+
+
+- title: Ei täpsemalt kui mina
+  artist: 
+  lyrics: |    
+    Ei täpsemalt kui mina
+    või käia ükski kell,
+    kui õllelaua taga
+    ma istun õhtutel.
+    Ma kannust joon, ei vaata
+    ma iial kellale 
+    :,: eks tühjad kannud näita,
+    kui aeg on hiline! :,:
+
+    Seal kaugel väike maja,
+    kus elab mu kallike,
+    tal tingimata vaja
+    veel laulda lauluke.
+    Kas aken läheb valgeks
+    või pimedaks jääb see 
+    :,: saab mulle kohe selgeks,
+    kui aeg on hiline! :,:
+
+    Kui kõige viimaks mina
+    konvendist koju läen,
+    siis ilma küsimata,
+    kui palju kell, ma näen,
+    näen seda omast käigust,
+    kas vänt või sirge see,
+    :,: ma tunnen enda laulust,
+    et aeg on hiline! :,:
+
+
+- title: Elagu hobused, naised ja viin
+  artist: 
+    - Rahvalik
+    - N.M. Strelnikov
+  lyrics: |
+    Elagu hobused, naised ja viin,
+    kadugu mured ja kadugu piin!
+    
+      Ah, kui juba juua, siis juua põhjani,
+      ah kui juba käia, siis käia käpuli!
+      Ah, kui juba mürgel, siis mürgel lõpuni!
+      Ah, kui juba unustus, siis olgu täielik!
+    
+    Kui suur on kera ruumala?
+    Kui suur on kera pind?
+    Kui täita teda viinaga,
+    mis on siis tema hind?
+
+      Ah, kui juba juua, siis juua põhjani,
+      ah kui juba käia, siis käia käpuli!
+      Ah, kui juba mürgel, siis mürgel lõpuni!
+      Ah, kui juba unustus, siis olgu täielik!    
+
+    Kas Napoleon käis kingades
+    või käis ta saabastes?
+    Või käis ta hoopis kõrtsides
+    ja käis ta kabarees?
+    
+      Ah, kui juba juua, siis juua põhjani,
+      ah kui juba käia, siis käia käpuli!
+      Ah, kui juba mürgel, siis mürgel lõpuni!
+      Ah, kui juba unustus, siis olgu täielik!
+    
+
+- title: Ela hästi, mu kodumaa
+  artist: Saami rahvalaul
+  lyrics: |   
+    Ela hästi, mu kodumaa,
+    su rajad mulle on kitsaks jäänud.
+    Vastumeeli, raskel sammul
+    jätan maha ma kodupaiga.
+
+    Võõra keele võõra sõna
+    tõukab eemal' emakeele.
+    
+    Ole meeles, isakodu,
+    põdrasilmus ja kõõlusköied.
+    Oma kõrvus ikka kuulda
+    põdrakellade hääli tahan.
+    
+    Palju pilte on mul silmis,
+    südames neist tunnusmärgid.
+    
+    Ole meeles, isakodu,
+    lapsepõlve mängupaika.
+    Oma kõrvus ikkagi kuulda
+    põdrakellade hääli tahan.
+    
+    Palju pilte on mul silmis,
+    südames neist tunnusmärgid.
+    
+    Ela hästi, mu kodumaa,
+    su rajad mulle on kitsaks jäänud.
+    Vastumeeli, raskel sammul
+    jätan maha ma kodupaiga.
+    
+    Võõra keele võõras sõna
+    tõukab eemal' emakeele.
+
+
+- title: Mutionu pidu
+  artist: 
+  lyrics: |
+    Elas metsas muti-onu
+    keset kuuski noori, vanu,
+    :,: kadakpõõsa juure all
+    eluruum tal sügaval. :,:
+    
+    Kutsus kokku külalisi
+    karvaseid ja sulelisi,
+    :,: lendas vares, harakas,
+    kull ja kaaren nupukas. :,:
+    
+    Vantsis uhkelt karuvana,
+    veeres siili okaskera,
+    :,: jänes nudi sabaga,
+    orav kikkis kõrvaga. :,:
+    
+    Joostes tuli väle põder,
+    hiljaks jäi veel reinuvader,
+    :,: siis kõik lauda istusid,
+    pidurooga maitsesid. :,:
+    
+    Karu imes mesikooki,
+    jänes rüüpas kastejooki,
+    :,: kaaren karumarju sõi,
+    kull see kurejooki jõi. :,:
+    
+    Põder limpsis samblasuppi,
+    orav näris käbijuppi,
+    :,: see oli päise päeva a'al
+    pilla-palla pillerkaar. :,:
+
+
+- title: Elas Tartus neiu noor ja ilus
+  artist: 
+  lyrics: |    
+    Elas Tartus neiu noor ja ilus,
+    sõdurpoissi õrnalt armastas.
+    Vaiksel õhtul Raadi puie vilus
+    truudust vandus talle surmani.
+
+      Neiu, kas tead, akna avama sa pead.
+      Neiu sel ööl sulle külla tulen veel.
+      Täna see tund, segan su und.
+      Neiu ennast voodi peida,
+      sõdurpoiss ei armu heida.
+      Tänasel ööl, armud sa veel.
+
+    Jõudsid kätte suised laagripäevad,
+    sõdurpoisid Tartust lahkusid.
+    Aga vaata valupisaratest
+    punetasid neiu silmad vees.
+    
+    Truuks jään ma igavesti sulle,
+    ütles ta ja õrnalt andis suud.
+    Tõusku päike tunnistajaks mulle,
+    et vaid sõdurpoissi armastan.
+
+
+- title: Joogilaul
+  artist: Raimond Valgre
+  lyrics: |
+    Elus pole alati kõik nali,
+    elu toob meil rõõme, kurvastust,
+    ent sageli kui saatus liiga vali,
+    ma kuskilt pean ju leidma lohutust.
+
+    Ma tõstan klaasi, sest olen täna kurb,
+    ma tõstan klaasi, sest pettis mind mu arm,
+    on keegi teine, keda armastab ta,
+    on keegi teine, ja ma nõnda üksinda.
+
+    Ma tõstan klaasi su terviseks, mu neid,
+    et õnne saaksid sa leidma eluteel,
+    mis sest, et jäädavalt sinust
+    lahkuma nüüd pean,
+    ma tõstan klaasi soovides sul head.
+
+- title: Emajõe jutustus
+  artist: S. Lipp
+  lyrics: |    
+    Emajõe pääl kurb kaebehääl,
+    nutab maailm, pisarais silm.
+    Mu noorusa'ast ja kallimast
+    Emajõe võimas kohin jutustab mull'.
+    
+    Kui kaugele läinud kõik see 
+    kevadehurm, noorus ja arm ...
+    Kui eluteel näen sind kord veel,
+    peas mul siis hõbejuuksed, vastu lä'en sull'.
+
+
+- title: Ema, mu armas ja hea
+  artist: 
+    - M. Hunt
+    - R. Paxton
+  lyrics: |
+    Ema, mu armas ja hea,
+    kaua ei ole sind näinud.
+    Ei tulla saa ma niipea veel 
+    Ema, mu armas ja hea.
+    
+    Ema, sa ootad ma tean,
+    pikad su ööd ja su päevad,
+    ammuseid kirju veel loed.
+    Ema, sa ootad ma tean.
+    
+    Endiselt hästi mul kõik 
+    muret ei maksa sul tunda,
+    tulen, kui kiire aeg mööda on läinud.
+    Ema, sa ootad ma tean.
+
+
+- title: Enne veel, kui kustub eha
+  artist:
+    - P. Abel 
+    - Rahvalik
+  lyrics: |    
+    Enne veel kui kustub eha,
+    lähen lahingusse ma, valerii-valeraa!
+    :,: Tulen tagasi sealt võitjana
+    või langen ma. :,:
+      :,: Valle-rille, valle-ralle, valle-ra-a-a. :,:
+      :,: Tulen tagasi sealt võitjana
+      või langen ma. :,:
+
+    Kui ma peaksin täna langema,
+    olen homme surnud mees, valerii-valeraa!
+    :,: Siis mind sõbrad hauda kannavad
+    just koidu eel. :,:
+      :,: Valle-rille, valle-ralle, valle-ra-a-a. :,:
+      :,: Siis mind sõbrad hauda kannavad
+      just koidu eel. :,:
+
+    Kolm sinilille õitsevad
+    minu kalmukünka peal, valerii-valeraa!
+    :,: Uhke ratsamees neid murrab seal
+    nii õelal käel. :,:
+      :,: Valle-rille, valle-ralle, valle-ra-a-a :,:
+      :,: Uhke ratsamees neid murrab seal
+      nii õelal käel. :,:
+    
+    Käi põrgu uhke ratsamees,
+    lase lilled õitsevad, valerii-valeraa!
+    :,: Neid vast näha oleks igatsen'd
+    mu kallim neid. :,:
+      :,: Valle-rille, valle-ralle, valle-ra-a-a :,:
+      :,: Neid vast näha oleks igatsen'd
+      mu kallim neid. :,:
+
+- title: Esmaspäeval olin mina tiba tindine
+  artist: 
+    - R. Tihanov
+    - E. Normaal
+    - EÜE Abruka
+  lyrics: |
+    Esmaspäeval olin mina tiba tindine,
+    teisipäeval vilevahe veidi vindine,
+    kolmapäeval koodid vaevu-vaevu kandsid mind,
+    neljapäeval nospel nässus, aga rõõmus rind!
+    
+      Ja ikka joon, ikka joon, silmis salasoov.
+      Põrgutantsu maksalutik marutõves lööb 
+      ikka huuli-huuli-hei, a-la-la huuli-huuli-hoo,
+      läbi ligund ihu lekib õlu und mentool.
+    
+    Reede rauad tulest rebis, rauges minu hoog,
+    laupa õhtul saun ja ... hingerahu toob,
+    pühapäeval pasun paks ja tühjad-tühjad peod 
+    nädalaga nahka panid hinge mul need reod.
+    
+    Nädalaist said kuud ja kuudest pikad aastaread,
+    soolikatest punut köiest eluvankrit vean.
+    Lakekrants või joomapinal, kalts või kaabakas?
+    Senimaani pole oma minast sotti saand.
+
+
+- title: Oldermani laul
+  artist: 
+  lyrics: |    
+    :,: Esmaspäev on selleks loodud,
+    et saaks terve päeva joodud. :,:
+
+    :,: Teisipäeval minu käsi
+    viina viskamast ei väsi. :,:
+
+    :,: Kolmapäeval süda paha 
+    näha kedagi ei taha. :,:
+    
+    :,: Neljapäeval uue hooga
+    hakkan jälle viina jooma. :,:
+    
+    :,: Reedene päev ka see pole kaine,
+    ära sai joodud "Lõunamaine". :,:
+    
+    :,: Kui on jõudnud laupäeva õhtu,
+    viinakest mina kallan kõhtu. :,:
+    
+    :,: Pühapäeval trilla-tralla
+    kallan viina kõrist alla. :,:
+
+
+- title: Hakkame, mehed, minema
+  artist: 
+    - G. Ernesaks
+    - Rahvalik
+  lyrics: |
+    Hakkame, mehed, minema
+    kodu poole kõndima,
+    :,: tare poole tõttama. :,:
+    
+    Paneme piibud põlema,
+    vanad tobid tormama,
+    :,: uhked tobid uhkamaie! :,;
+    
+    Hakkame, mehed, minema
+    kodu poole kõndima,
+    :,: tare poole tõttama. :,:
+
+
+- title: Haanja miis vidi lubjakivve
+  artist: 
+    - J. Räppo
+    - Rahvalik
+  lyrics: |
+    Haanja miis vidi lubjakivve
+    kolm päivä Võrolõ.
+    
+    Haanja miis läts Tiganiku puuti
+    uma kolmõ kopkaga.
+    
+    Tahtsõ osta püksi nöpse
+    uma higi, vaiva iist.
+    
+    Haanja miis nägi silgupüttü
+    Tiganiku leti iih.
+    
+    Haanja miis pallõl puudisaksa:
+    "Esänd, lupa tsurgata!"
+    
+    "Tsurka, no tsurka Haanja miis
+    uma leeväpalakõst!"
+    
+    Laul um otsah, laul läts mõtsah,
+    ei lää inämb edäsi.
+
+
+- title: Head õhtut armas peremees
+  artist: 
+  lyrics: |
+    Head õhtut, armas peremees. Ja iga tubli mees.
+    Las ärgata teil rõõmsasti. Veel päev ei ole käes.
+    
+      Ei veel päev ei ole käes,
+      ei veel kuud ei paistmas näe,
+      vaid tähed aina säramas on taeval!
+    
+    Ja armas perenaine. Ja iga tubli mees.
+    Sa süüta palun küünlad. Veel päev ei ole käes.
+    
+      Ei veel päev ei ole käes,
+      ei veel kuud ei paistmas näe,
+      vaid tähed aina säramas on taeval!
+    
+    Te korstna ots on suitsust hall. Ja iga tubli mees.
+    On's kohvipotil tuli all. Veel päev ei ole käes.
+    
+      Ei veel päev ei ole käes,
+      ei veel kuud ei paistmas näe,
+      vaid tähed aina säramas on taeval!
+    
+    Te korsten on kui hele viit. Ja iga tubli mees.
+    Et tüdruku mina leian siit. Veel päev ei ole käes.
+    
+      Ei veel päev ei ole käes,
+      ei veel kuud ei paistmas näe,
+      vaid tähed aina säramas on taeval!
+    
+    Ei jõua seista külm on tuul. Ja iga tubli mees.
+    Siin pakane mul annab suud. Veel päev ei ole käes.
+    
+      Ei veel päev ei ole käes,
+      ei veel kuud ei paistmas näe,
+      vaid tähed aina säramas on taeval!
+    
+    Ma õue ootama ei jää. Ja iga tubli mees.
+    Mul habe juba ammu jääs. Veel päev ei ole käes.
+
+- title: Hea kuldne jook on vein
+  artist: 
+  lyrics: |
+    :,: Hea, kuldne jook on vein! :,:
+    Ta endas õndsust kannab,
+    mis Jumal meile annab,
+    nii kaovad vaev ja lein.
+    
+      Hea, kuldne jook on vein!
+      :,: Hea, kuldne! :,:
+      :,: Hea, kuldne jook on vein! :,:
+    
+    :,: Hea, kuldne jook on vein! :,:  
+    Kõik üllad tunded rinnas
+    ta süütab maal ja linnas
+    ning kuningaks teeb meid.
+  
+- title: Hei-jah meil tuleb tõusta
+  artist: 
+  lyrics: |
+
+
+- title: Hei, poisid, kas olete valmis?
+  artist: 
+  lyrics: |
+
+  
 - title: 
   artist: 
   lyrics: |
@@ -1290,3 +1735,4 @@
 - title: 
   artist: 
   lyrics: |
+  
