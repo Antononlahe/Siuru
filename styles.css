@@ -127,18 +127,15 @@
   }
   
   .checkbox-container {
-    display: inline-block;
     position: relative;
-    padding-left: 30px;
-    margin-left: 10px;
-    cursor: pointer;
+    padding-left: 25px;
+    margin-left: 5px;
     font-size: 0.9rem;
-    user-select: none;
   }
   
   .checkbox-container .checkmark {
     position: absolute;
-    top: 0;
+    top: 25%;
     left: 0;
     height: 20px;
     width: 20px;
@@ -176,15 +173,9 @@
   }
   
   #back-button {
-    background-color: var(--highlight-color);
-    color: var(--text-color);
-    border: none;
     padding: 0.4rem 0.8rem;
     border-radius: 5px;
-    cursor: pointer;
-    align-self: flex-start;
     font-size: 0.9rem;
-    right: 10px;
   }
   
     #content {
