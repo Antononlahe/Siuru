@@ -116,8 +116,8 @@ document.getElementById('back-button').onclick = () => {
 
 function performSearch() {
     const searchTerm = document.getElementById('search-bar').value.toLowerCase();
-    const searchLyrics = document.getElementById('search-lyrics').checked;
-
+    const searchLyrics = document.querySelector('.checkbox-container input').checked;
+    
     let filteredSongs;
     if (searchTerm.startsWith('a:')) {
         const artistSearchTerm = searchTerm.slice(2).trim();
@@ -144,7 +144,7 @@ function performSearch() {
 }
 
 document.getElementById('search-bar').oninput = performSearch;
-document.getElementById('search-lyrics').onchange = performSearch;
+document.querySelector('.checkbox-container input').onchange = performSearch;
 
 document.getElementById('clear-search').onclick = () => {
     document.getElementById('search-bar').value = '';
