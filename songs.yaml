@@ -8281,169 +8281,1488 @@
     Kui on löödud vaenuväed, lasen laulu laia,
     kaela ümber neiu käed, oh-hoia, oh-hoia-ja-jaa...
 
-- title: 
+
+- title: Om maid maailman tuhandit
+  artist: 
+    - H. Adamson
+    - J. Simm
+  lyrics: |
+    Om maid maailman tuhandit
+    ja rahvit mitmit miljunit –
+    üitsainus Mulgimaa!
+    
+    Ää kuri las olla ta
+    ku' Pikäsillast üle saa,
+    suud anna mullal ma.
+    
+    Ja üteaindsa mõttege
+    ma eidä õhtu magame
+    ja tõusu ommuku:
+    
+    Oh kunas ma su jälle näe?
+    Oh kunas kodun tõusup päe
+    ja õhtu pastab kuu?
+
+    Üits einanutt ek kõrreke,
+    ku' kodunt siia kaugele
+    lind noka otsan tuuss –
+    
+    ma ikess pääl tal otseldi
+    ja ütsi pisare kik vii
+    ta küllest ära juuss.
+    
+    Om maid maailman tuhandit
+    ja rahvit mitmit miljunit –
+    üitsainus Mulgimaa!
+  
+  
+- title: Oma vanas eas ma
+  artist: 
+  lyrics: |
+    Omas vanas eas ma
+    võtsin noore naise.
+    :,: Küll tema, kurat, kiusas mind
+    ühest päevast teise! :,:
+    
+    Läksin surnuaiale,
+    palusin ta surma.
+    :,: Surmaingel ole hea,
+    päästa ära kurjast. :,:
+    
+    Koju jõudes leidsin ma,
+    naine oli surnud.
+    :,: Surmaingel oli ta
+    köögis maha murdnud. :,:
+    
+    Kandke teda hellasti,
+    kandke teda tasa,
+    :,: kandke teda süles,
+    et raisk ei ärkaks üles! :,:
+
+
+- title: On elu meil üürike ilmas
+  artist: 
+  lyrics: |
+    On elu meil üürike ilmas,
+    mis määratud saatuse väel –
+    kord läikimas pisar meil silmas,
+    :,: kord kannab meid õnn oma käel. :,:
+    
+    On elus meil võitlusi palju –
+    neis karastub mehine meel!
+    See mees, kes on kindlam kui kalju,
+    :,: võib meiega liituda veel! :,:
+    
+    Meil vennastus valitseb meeles,
+    me hoiame vabadustuld!
+    Ja kõlavas isamaa keeles
+    :,: meil rinnus keeb nooruse kuld! :,:
+    
+    On teadused andunud meile,
+    et teenida rahvast ja maad.
+    Meil mõõgad on vastuseks neile,
+    :,: kes vaenlastest valdab me raad! :,:
+    
+    Me isad on põlvedest põlve
+    meil' pühendand laulude väe.
+    Me laulus on nende eest palve,
+    :,: kes manalas päikest ei näe! :,:
+    
+    Me laulame noortele õnne,
+    kes edasi kannavad tuld,
+    mis põleb meil rinnus veel enne,
+    :,: kui katab meid kodumaa muld. :,:  
+
+
+- title: On küünlavalgus hell ja soe I
+  artist: 
+    - T. Trubetski
+    - Šoti rahvalaul
+  lyrics: |
+    On küünlavalgus hell ja soe,
+    süda marsitaktis lööb.
+    Kõik hurmav, hell me hinge poeb,
+    meid kutsub kaunis öö.
+    
+    Me küünlavalgel marsime,
+    öös valged küünlad käes.
+    Me viimne marss on täna see,
+    mis unustusse läeb.
+    
+    Meid käsist-jalust ühendavad
+    rauast ahelad
+    ja marsihelid vähendavad
+    hauast vahemaad.
+    
+    Ka tänavail ja katustel
+    näen rauda vilkumas.
+    Meid saadavad me matustel
+    vaid kuulipildujad.
+    
+    Ei teist nüüd iial lahku ma,
+    valküürid kutsuvad.
+    Me ühes peame lahkuma,
+    kui küünlad kustuvad.
+    
+    Taas ehaeelne mahe tuul
+    öös leeke kallutab
+    ja teadmine, et ootab kuul,
+    me meeled vallutab.
+    
+    Veel sõdurina tunnen end,
+    veel marsisammul käin,
+    kuid peagi hakkab kuulilend
+    meil purustama päid.  
+
+    Taas kõlab nukker marsiviis
+    siin öiseil tänavail
+    ja avanevad kaitseriivid
+    kuulipildujail.
+    
+    Nüüd surmakell me hingi loeb
+    ja marsitaktis lööb.
+    Kõik hurmav hell me hinge poeb,
+    meid kutsub kaunis öö.
+
+
+- title: On küünlavalgus hell ja soe II
+  artist:  
+    - H. Karmo
+    - Šoti rahvalaul
+  lyrics: |
+    On küünlavalgus hell ja soe,
+    süda valsitaktis lööb.
+    Kõik hurmav, hell me hinge poeb,
+    meid köidab kaunis öö.
+    Me kahekesi tantsime
+    parketil käsikäes.
+    Me viimne tants on täna see,
+    mis ei meelest unune.
+    Ma täna uues valguses
+    kogu senist elu näen.
+    Ja rohkem veel, kui enne veel,
+    sind ma armastama jään.
+    Nüüd viimne küünal kustuta,
+    veel suudle mind ja siis,
+    on saabund aeg meil lahkuda
+    hinges viimse valsi viis.
+  
+
+- title: On looja loonud
+  artist: F. Loewe
+  lyrics: |
+    On Looja loonud meile tursked kämblad,
+    et teeme tööd ja lulli me ei löö,
+    on Looja loonud meile tursked kämblad, kuid
+    :,: kui läeb libedalt sul kõik, :,:
+    keegi teine ära teeb su töö!
+    
+    Kui läeb libedalt, kui läeb libedalt,
+    kui läeb libedalt sul kõik, ei tee sa tööd!
+    
+    On Looja loonud kiusatuseks viina,
+    et näha, kas jääb kindlaks meeste meel,
+    on Looja loonud kiusatuseks viina, kuid
+    :,: kui läeb libedalt sul kõik, :,:
+    saabub kiusatus ja pattu teed!
+    
+    Kui läeb libedalt, kui läeb libedalt,
+    kui läeb libedalt sul kõik, siis pattu teed!
+    Meil elutee käib sika-vinka, kuid,
+    kui läeb libedalt sul kõik, siis see ei loe!
+    
+    Eks tule naine selle tarvis võtta,
+    et oleks keegi, kes su kaissu poeb,
+    eks tule naine selle tarvis võtta, kuid
+    :,: kui läeb libedalt sul kõik, :,:
+    naist ei võta sa, kuid säng on soe!
+    
+    Kui läeb libedalt, kui läeb libedalt,
+    kui läeb libedalt sul kõik, su säng on soe!
+    Kui läeb libedalt, kui läeb libedalt,
+    kui läeb libedalt sul ilmas kõik!
+
+    On Looja käsk, et ligimest sa aitad,
+    kas olgu laintel, õhus, kuival maal.
+    On Looja käsk, et ligimest sa aitad, kuid
+    :,: kui läeb libedalt sul kõik, :,:
+    tarbe korral sind ei leia ta!
+    
+    Kui läeb libedalt, kui läeb libedalt,
+    kui läeb libedalt sul kõik, ei näe sind ta!
+    
+    Sult vahel naaber võlga nõuab, kuid,
+    kui läeb libedalt sul kõik, siis see ei loe!
+    
+    On lausa patt, kui mees lööb üle aisa,
+    ja tõmbab ringi teiste naistega!
+    On lausa patt, kui mees lööb üle aisa, kuid
+    :,: kui läeb libedalt sul kõik, :,:
+    ei su naine seda teada saa!
+    
+    Kui läeb libedalt, kui läeb libedalt,
+    kui läeb libedalt sul kõik, ei naine tea!
+    Kui läeb libedalt, kui läeb libedalt,
+    kui läeb libedalt sul ilmas kõik!
+
+
+- title: Oo, millal saaksin ma mustlasena
+  artist: I. Beneš
+  lyrics: |
+    Oo, millal saaksin ma mustlasena
+    maailmas ringi veel rännata?
+    Nii vabalt rõõmus ei ole keegi,
+    kui loodusrüpes on mustlane.
+
+    Kus elu looduslik ja päiksepaistega,
+    ma olen õnnelik vaid sinuga.
+    Ma mustlaskombel maailmas rändan
+    ja otsin õnne, kus asub see?
+    
+    Sageli metsades hulkudes meenub mul
+    mustlase muretu elu,
+    milles nii palju on võlu
+    ja nii palju romantikat.
+
+
+- title: Oo, mu arm
+  artist: 
+    - H. Voolaid
+    - EÜE Euromais '82
+  lyrics: |
+    Oo, mu arm
+    väljas on ju elu karm,
+    nüüd mu juurde jää,
+    siin on hea, küll näed.
+    Oota veel,
+    siin su elu rõõmsaks teen –
+    laulan sulle ma, aina kuula sa.
+      :,: Sul laulan tü-tü-tü-tü-tü. :,:
+    
+    Õhtul veel
+    kaminasse tule teen,
+    selle paistel sa
+    hüüad – oo, kui hea!
+    Ja kell viis
+    film on televiisoris,
+    seda vaatame, hiljem joome teed.
+      :,: Sul laulan tü-tü-tü-tü-tü. :,: 
+
+    Näed sa siis
+    kiiret pole kuhugi.
+    Siin, mu Veenus, sa.
+    Su Apollo ma.
+    Nii-kui-nii,
+    igatahes kunagi,
+    ütled mulle sa, et ma olen hea.
+      :,: Sul laulan tü-tü-tü-tü-tü. :,:
+
+
+- title: Oot, oot, oot, oot, las mul minna
+  artist: 
+  lyrics: |
+    :,: Oot, oot, oot, oot, las mul minna,
+    pruudi juurde Tartu linna. :,:
+    
+    :,: Minu pruut on virk ja kärmas,
+    igat pidi mulle armas. :,:
+    
+    :,: Käed ta ümber kaela säeb,
+    silmad põlevad kui söed. :,:
+    
+    :,: Säält mina omal' naise võtan,
+    teised pruudid maha jätan. :,:
+    
+    :,: Ei ta iial juukseid loki –
+    kaisutab ja ketrab vokki. :,:
+    
+    :,: Oot, oot, oot, oot, ma tahaks minna,
+    pruudi juurde Tartu linna! :,:
+
+
+- title: Osariigist osariiki / Rosalinda
+  artist: EÜE Emmaste '85
+  lyrics: |
+    Osariigist osariiki mööda raudset teed
+    veereb üksteist vagunit ja vedur nende ees.
+    Seal pehmes luksusvagunis üks sinisilmne daam,
+    on Rosalinda nimeks tal ja kuulsust kapaga.
+    
+    :,: Oo Rosalinda, Rosalinda,
+    Rosalinda, Rosalind,
+    viiskümmend nukrat farmerit
+    jäi taga nutma sind. :,:
+    
+    On rongi lõpus vanaeit, kel hästi terav keel,
+    ta samast linnast pärit on, kus Rosalinda teel.
+    Ja täpsed andmed teada tal, et ükski rikas mees
+    ei suuda kõrtsist mööduda, kus Rosalinda sees.
+        
+    :,: Oo Rosalinda, Rosalinda,
+    Rosalinda, Rosalind,
+    viiskümmend nukrat farmerit
+    jäi taga nutma sind. :,:
+    
+    Kuid äkki kõlas piu ja pau ja vaibus rongi hoog,
+    seal elu muutus põnevaks, sest möödus eskadron.
+    Ja teispool rongi kakerdas indiaanlaste brigaad
+    ja nottisid seal teineteist just läbi rongi nad.
+        
+    :,: Oo Rosalinda, Rosalinda,
+    Rosalinda, Rosalind,
+    viiskümmend nukrat farmerit
+    jäi taga nutma sind. :,:
+    
+    Nüüd rongi seinad hõredad, on vaibund nutt ja naer,
+    on elus ainult vanaeit, ka temal tuleb aeg!
+    Ja teiste hulgas surma sai ka kaunis baaridaam,
+    oli Rosalinda nimeks tal, nüüd temast laulan ma.
+    
+    :,: Oo Rosalinda, Rosalinda,
+    Rosalinda, Rosalind,
+    viiskümmend nukrat farmerit
+    jäi taga nutma sind. :,:
+
+
+- title: Otsi lolli, kes ei kardaks kolli
+  artist: 
+    - J. Viiding
+    - O. Ehala
+  lyrics: |
+    :,: Otsi lolli, kes ei kardaks kolli,
+    kui on kollil rahamaitse suus.
+    Raha mängib elus põhirolli.
+    Raha see on õnn ja armastus! :,:
+    
+    Kõrged mõtted see on puhas möga –
+    pole ilu ilma rahata.
+    Söö ja maga, sarvevahet süga,
+    ega elult muud ei taha ka.
+    
+    Raha võim on suur ja igavene,
+    elu lühikene – raha pikk.
+    Kel on vähe või on natukene,
+    sellel puudub helge...
+    sellel puudub helge tulevik!
+
+
+- title: Paista sa, kuldne kuu
+  artist: 
+  lyrics: |
+    Paista sa, kuldne kuu, minu armsamale,
+    tervisi minult vii temale.
+    
+    Üksinda sellel ööl tunnen igatsust ma,
+    minu kallimast sa jutusta.
+    Su hõbevalgus võib neid trööstida,
+    kes tundvad end üksinda.
+    
+    Paista sa, kuldne kuu, minu armsamale,
+    ütle tal', teda armastan ma.  
+
+
+- title: Palju aastaid mööda läinud / Postipoiss
+  artist: 
+    - J. Pori
+    - A. Marcs
+  lyrics: |
+    Palju aastaid mööda läinud sellest a'ast,
+    kui veel olemas ei olnud meie maal
+    ronge, autosid, jalgrattaid,
+    ega tehtud pikki matkaid,
+    nagu tänapäeval kõikjal näha saad.
+    
+    Uhke postipoiss sõitis kord maanteel,
+    külast külla, linnast linna viis ta tee.
+    Kõikjal uudiseid tõi postipoiss kaugelt –
+    nüüd vaid möödund ajast mälestus on see.
+    
+    Külakõrts ja postijaam seal üheskoos,
+    soojas kambris oli tuju ikka hoos.
+    Siis kui jalgu puhkas hobu,
+    peeti külmarohust lugu
+    ja siis sõit läks jälle lahti täies hoos.
+    
+    Uhke postipoiss sõitis kord maanteel,
+    külast külla, linnast linna viis ta tee.
+    Kõikjal uudiseid tõi postipoiss kaugelt –
+    nüüd vaid möödund ajast mälestus on see.
+    
+    Kirja kallimalt ka postipoiss seal tõi,
+    vahel suudluse ta selle eest ka sai.
+    Mitu hõberaha taskus
+    selle vaeva ära tasus,
+    mida teekond pikk tal kaasa tuua võis.
+    
+    Uhke postipoiss sõitis kord maanteel,
+    külast külla, linnast linna viis ta tee.
+    Kõikjal uudiseid tõi postipoiss kaugelt –
+    nüüd vaid möödund ajast mälestus on see.
+    
+    Talvel lumi tuiskas, tormas maantee peal,
+    juba kaugelt kostis aisakella hääl.
+    Soojas kasukas seal sõitis
+    mõni rikas linnakaupmees –
+    uinus mõnusasti, habe härmas ee
+
+    Uhke postipoiss sõitis kord maanteel,
+    külast külla, linnast linna viis ta tee.
+    Kõikjal uudiseid tõi postipoiss kaugelt –
+    nüüd vaid möödund ajast mälestus on see.
+
+
+- title: Palju veel toredamaid mändisid
+  artist: 
+  lyrics: |
+    Palju veel toredamaid mändisid mühab
+    Soome südamaades!
+    :,: Veel on meil tarvis agaramaid poisse
+    parvetuste tööle! :,:
+    
+    Mändide mühinal ja koskede kohinal
+    lustilaulu lööme!
+    :,: Egas meie muud ei kiidagi,
+    kui oma kullast elu! :,:
+    
+    Lind see laulis lepikus
+    ja kaasikus tal pesa.
+    :,: Kägu see kukkus kuusikus
+    ja vanamoor kündis kesa. :,:
+
+
+- title: Pane tähele minu palumist
+  artist: Rahvalooming Kihnu saarelt
+  lyrics: |
+    Pane tähele minu palumist,
+    kuule laine leina, ohkamist.
+    :,: Anna andeks mulle armas pruut,
+    et su vastu olen eksinud. :,:
+    
+    Näe, on merelt, metsast lumi läin'd,
+    meie armuaeg on mööda läin'd,
+    :,: neiuke oh ära kurvaks jää,
+    merereis teeb rõõmu minule. :,:
+
+    Mis on põllud põllumeestele,
+    haljad aasad noorte lastele,
+    :,: mis on peiu noore neiule,
+    nii on meri armas minule. :,:
+    
+    Köian kokku veel üht pakikest,
+    jätan jumalaga kallikest.
+    :,: Kapten ootab ammu, ootab laev,
+    möödas meie armastuse aeg. :,:
+    
+    Kui on merereis meil hästi läin'd,
+    võõraid randu ja ka rahvast näin'd,
+    :,: siis ma pöördun koju tagasi -
+    kallikesel seltsim sedasi. :,:
+ 
+
+- title: Peagi saabun tagasi su juurde
+  artist: 
+    - A. Vennola
+    - R. Valgre
+  lyrics: |
+    Peagi saabun tagasi su juurde.
+    Aastaid möödund. Teel ma kodu poole.
+    Tean, et mind sa ootad,
+    kohtuda veel loodad –
+    lahkudes nii ütlesid mul sa...
+    Peagi saabun tagasi su juurde.
+    Astume koos ellu jälle uude.
+    Lakkavad siis ohked,
+    igatsused rohked –
+    õnn jääb meie majja elama.
+
+    Ma täna unelen õnnest, mis saabub,
+    ootel on kogu mu meel.
+    Homme siis süda las joobub,
+    kohates sind jälle eluteel!
+    
+    Peagi saabun tagasi su juurde.
+    Tervitusi viigu sulle tuuled.
+    Öelgu sulle seda, mida tunneb süda –
+    tagasi su juurde saabun ma.
+
+
+- title: Pea õits'vad lilled
+  artist: 
+    - Rahvalik
+    - A.E. Müller
+  lyrics: |
+    :,: Pea õits'vad lilled, pea õits'vad roosid,
+    pea õitseb lill - ära-unusta-mind. :,:
+    
+    :,: Ma ütlen veel üks kord, –
+    noorus on ilus aeg,
+    noorus ei tule iial tagasi. :,:
+    
+    :,: Meil kasvab viinapuu ja sel on marjad,
+    neist voolab välja magus vein. :,:
+    
+    :,: Ma ütlen veel üks kord, –
+    noorus on ilus aeg,
+    noorus ei tule iial tagasi. :,:
+    
+    :,: Üht neidu kaunist, kel sinisilmad,
+    ma kalliks pean nii lõpmata! :,:
+    
+    :,: Ma ütlen veel üks kord, –
+    noorus on ilus aeg,
+    noorus ei tule iial tagasi. :,:
+    
+    :,: Kui oled noor, siis ikka laula,
+    laul vaimustab ja liidab meid. :,:
+
+    :,: Ma ütlen veel üks kord, –
+    noorus on ilus aeg,
+    noorus ei tule iial tagasi. :,:
+
+
+- title: Pill ́ oll ́ helle
+  artist: Setu rahvalaul
+  lyrics: |
+    Pill' oll' helle, pill' oll' helle,
+    helle, pedäjäne.
+    Hoi, ma lellos, hoi, ma lellos,
+    ma lellos pedäjäne, jo!
+    
+    Kannõl kummõ, kannõl kummõ,
+    kummõ, kadajane.
+    Hoi, ma lellos, hoi, ma lellos,
+    ma lellos kadajane, jo!
+    
+    Olõs mul hääli, olõs mul hääli,
+    hääli inedäne.
+    Hoi, ma lellos, hoi, ma lellos,
+    ma lellos inedäne, jo!
+    
+    Petäs ärä, petäs ärä,
+    petäs pilli hääle.
+    Hoi, ma lellos, hoi, ma lellos,
+    ma lellos pilli hääle, jo!
+    
+    Katas kinni, katas kinni,
+    katas kandle keele.
+    Hoi, ma lellos, hoi, ma lellos,
+    ma lellos kandle keele, jo!
+
+
+- title:  Pill see hüüab kiiksat, kääksat / Külasimman 
+  artist: 
+    - P. Kuusik
+    - P. Tammeveski
+  lyrics: |
+    Pill see hüüab kiiksat-kääksat,
+    põrand vajub niiksat-nääksat.
+    Jalad löövad pliksat-plaksat,
+    tõmba aga tantsu, nii mis jaksad.
+    
+    Poisil jõena jookseb higi,
+    siiski litsub plika ligi.
+    Kämbla seadnud üle piha,
+    silmis põleb tantsuiha.
+    
+    Kui ju kuumaks köetud kere,
+    korraga jääb tühjaks tare.
+    Kes lä'eb metsa, kes lä'eb lakka,
+    kes jääb toa nurka vakka.
+    
+    Laudas tasa lammas määgib,
+    lauda taga keegi räägib.
+    Kuulda ainult poisi sosin:
+    "Ära jända, küll sind kosin."
+    
+    Õunaaias sama lugu:
+    "Mann, ä'ä ole õlekubu.
+    Las ma annan ühe musu,
+    rohkem ma ei taha, usu."
+    
+    Metsas liigub iga põõsas,
+    kuni taevas läinud rõõsaks.
+    Igaüks siis koju tõttab,
+    mälestusi kaasa võtab!
+
+
+- title: Pojad on mul õige naksid
+  artist: 
+    - H. Runnel
+    - K. Kilvet
+  lyrics: |
+    :,: Pojad on mul õige naksid - :,:
+    :,: pistsid nahka püksitraksid. :,:
+    
+    Ise olin noorelt möirat-oirat,
+    olin kohe noorelt möirat-oirat,
+    :,: kartsid mind kõik külakoirad. :,:
+    
+    :,: Kui läksin õhtul pidusse, :,:
+    :,: tõmbasid sabad lidusse. :,:
+    
+    Aga tüdrukud sina helde aeg,
+    aga tüdrukud, oh armas aeg,
+    :,: olid võõbatud kui planguaed. :,:
+    
+    :,: Et usu aga nende ilusse
+    :,: ja paha, kui ei vii neid vilusse! :,:
+    
+    :,: Tüdrukud mu maha jätsid, :,:
+    :,: vanad naised üles võtsid. :,:
+    
+    :,: Võtsid nagu võid ja saia, :,:
+    :,: mis on maha pilland maiad. :,:
+    
+    Pojad on mul õige naksid,
+    pojad said mul sama naksid -
+    :,: pistsid nahka püksitraksid. :,:
+    
+    :,; Häbi teile olgu küsida, :,;
+    :,: et kuidas need püksid püsivad,
+    minu püksid püsti püsivad? :,:
+
+
+- title: Priius, kallis anne
+  artist: 
+    - K.A. Hermann
+    - K. Gross
+  lyrics: |
+    Priius, kallis anne, taeva kingitus;
+    kõigile toob õnne sinu valitsus;
+    kus sind pole leida, seal on viletsus;
+    meie poole heida kallis varandus!
+    
+    Ei küll pane tähel' sind veel kõik maailm;
+    veel on mitmel mehel süda sulle külm.
+    Siiski pean mina väga kalliks sind,
+    sest et päästsid sina võõrast ikkest mind.
+    
+    Eesti vennad armsad, teil on priius käes,
+    olgem vahvad, varmsad seda pruukides;
+    edasi oh jõudkem suure hoolega,
+    vaimu priiust nõudkem kõige elu a'al!
+
+
+- title: Professor olen ma
+  artist: 
+    - P. Mägi
+    - C. Zeller
+  lyrics: |
+    Professor olen ma,
+    on petlik mu fassaad,
+    kuid minu teaduskond,
+    kel sellest aimu on,
+    mind siia saatis ta,
+    kui mustereksemplar.
+    Ma olevat se õige katsekomissar.
+
+    :,: Kuid katseil hirmus range ma,
+    ei naljalt keegi armu saa!
+    Kel aga taskus on protezhee,
+    siis kindel see, et läbi saab too kandidaat. :,:
+    Täna püüdkem hästi targad olla,
+    laskem kandidaadil ette tulla!
+    Kui nüüd keegi teda protezheerib –
+    ja ja ja ja ja ja!
+    Siis me vast ei üldse oponeeri –
+    ja ja ja ja ja ja!
+    Olgu ta või lollpea ilmas suurim –
+    ja ja ja ja ja ja!
+    Ütleme, et kõlbab professuuri –
+    ja ja ja ja ja ja!
+    Tuule järgi purje seada võin,
+    kui poetab kulda tasku meil.
+
+    Herr kolleg, kas pole nii:
+    ainult väike "nõks", tiitel ongi küps!
+    Herr kolleg, lisa juurde veel:
+    orden, lint, kullast rist,
+    poleks palju vist.
+    Poleks palju vist! Ei oleks vist!
+    Herr kolleg, kas pole nii:
+    ainult väike "nõks" – tiitel ongi küps.
+    Herr kolleg, lisa juurde veel:
+    orden, lint, kullast rist –
+    poleks palju vist –
+    kollega, kollega, kollega!
+    
+    Professor olen ma,
+    on petlik mu fassaad,
+    kuid minu teaduskond,
+    kel sellest aimu on,
+    mind siia saatis ta,
+    kui mustereksemplar.
+    Ma olevat se õige katsekomissar.
+
+    Jah, professor, prodekaan,
+    linnast linna sõidan ma,
+    sõidan ma, kuulus katsekomissar.
+
+    Jah, professor, prodekaan,
+    linnast linna sõidan ma.
+    Kui komissar, kui komissar,
+    kuulus katsekomissar!
+
+
+- title: Puhu, tuul, ja tõuka paati
+  artist: 
+    - M. Pukits
+    - Liivi rahvaviis
+  lyrics: |  
+    Puhu, tuul ja tõuka paati, 
+    aja Kuramaale mind!
+    Kura-ema oma tütre
+    lubas kodukanaks mull'!
+
+    Lubas küll, ei andud aga,
+    nimetas mind joomariks!
+    Nimetas, et purjus peaga
+    varsa sõitnud vaeseks ma.
+
+    Kus ma joonud kõrtsi kuivaks?
+    Varsa vaevand millise?
+    Oma raha eest ma joonud,
+    sõitnud oma varsaga.
+
+    Puhu, tuul ja tõuka paati,
+    aja Kuramaale mind!
+    Kura-ema oma tütre
+    lubas kodukanaks mull'!
+
+
+- title: Põhjamaa, me sünnimaa
+  artist: 
+    - E. Vetemaa
+    - Ülo Vinter
+  lyrics: |
+    Põhjamaa, me sünnimaa,
+    tuulte ja tuisuööde maa,
+    range maa ja kange maa,
+    virmaliste maa.
+    Põhjamaa, me sünnimaa,
+    iidsete kuuselaante maa,
+    lainte maa ja ranna maa,
+    sind ei jäta ma.
+    
+    On lumme uppund metsatalud,
+    vaiksed taliteed,
+    nii hellad on su aisakellad,
+    lumel laulvad need.
+    
+    Põhjamaa, me sünnimaa,
+    karmide meeste kallis maa,
+    taplemiste tallermaa,
+    püha kodumaa.
+    Põhjamaa, me sünnimaa,
+    hinges sind ikka kannan ma,
+    kaugeil teil sa kallis meil,
+    sind ei jäta ma.
+
+
+- title: Põhjuseta iial ma ei võta viina
+  artist: Rahvalik
+  lyrics: |
+    :,: Põhjuseta iial ma ei võta viina. :,:
+    
+      :,: Aga tänase päeva puhul
+      joon mina igal juhul. :,:
+    
+    :,: Uue lipsu ostan, jälle klaasi tõstan. :,:
+    
+      :,: Vaat' nii mina igal juhul
+      joon vaid asja puhul. :,:
+    
+    :,: Aastaseks saand puudel, jälle laual pudel. :,:
+        
+      :,: Aga selle päeva puhul
+      joon mina igal juhul. :,:
+    
+    :,: Ristib naaber lapsi, jälle pakub napsi. :,:
+    
+      :,: Ka selle päeva puhul
+      joon mina igal juhul. :,:
+    
+    :,: Pojad naabri kassil, nende auks mina prassin. :,:
+    
+      :,: Vaat' nii mina igal juhul
+      joon vaid asja puhul. :,:
+    
+    :,: Kui mind naine noomib, kurvastusest proovin. :,:
+    
+      :,: Vaat' nii mina igal juhul
+      joon vaid asja puhul. :,:
+    
+    :,: Kui mind kiidab tema, tõttan tähistama. :,:
+    
+      :,: Vaat' nii mina igal juhul
+      joon vaid asja puhul. :,:
+    
+    :,: Kuidas ma siis ennast peaksin napsivennaks. :,:
+    
+      :,: Aga tänase päeva puhul
+      joon mina igal juhul. :,:
+
+
+- title: Pühajärve päikseloojang
+  artist: 
+    - D. Kareva
+    - V. Randpere
+  lyrics: |
+    Pühajärve päikseloojang valgub üle vee,
+    istun üksi paadipäras, vaatan kaugusse –
+    vaevu virvendades voogab, helgib järvepind,
+    läbi helendava udu hõikab üksik lind.
+    Vaiksel õhtul paistab ära läbi selge vee
+    tume järvepõhi soik' ja salapärane,
+    vaiksel õhtul on ta näha läbi selge vee.
+    
+    Sinna-sinna sügavusse ihaleb mu hing,
+    üle paadiserva kutsub kumarduma mind.
+    Jahe, võpatavalt hele äratundmishetk –
+    igavik on just siin samas, käsi puutub vett.
+    Loss, mis vajus järvepõhja saja aasta eest?
+    Ei, need on mu oma silmad vaatamas mind veest!
+    Selle silmad, kes ma olin saja aasta eest.
+    
+    Tõmban käega, tõstan pilgu – taevas ääretu,
+    loojeneva päeva kohal aimub juba kuu.
+    Istun, vaatan, kuidas vajub silmapiiril loit –
+    silmapilguks kokku saavad hämarik ja koit.
+    Juba läbipaistev udu heljub üle vee,
+    valgub, helendav ja jahe, järve kohal öö,
+    roolind häälitseb – on aeg, ma sõuan kaldale.
+
+
+- title: Raha paneb rattad käima
+  artist: 
+    - O. Arro
+    - G. Malmsten
+  lyrics: |
+    Raha paneb rattad käima,
+    kas sa seda ei tea?
+    Raha eest võid kõike saada,
+    kas sa seda ei tea?
+    Raha eest võib viina juua,
+    kas sa seda ei tea?
+    Raha eest võid lõbu tuua,
+    kas sa seda ei tea?
+    
+    Raha paneb rattad käima,
+    kas sa seda ei tea?
+    Raha paneb naised laulma,
+    kas sa seda ei tea?
+    Raha eest ei saa sa südant,
+    kas sa seda ei tea?
+    Raha eest ei saa sa hinge,
+    keda ihaldad!
+    
+    Võtan endal' naise hella,
+    kas sa seda ei tea?
+    Väikese, kui taskukella,
+    kas sa seda ei tea?
+    Siidikleidi ostan talle,
+    kas sa seda ei tea?
+    Siis ta truu on ikka mulle,
+    kas sa seda ei tea?
+
+
+- title: Rahvahulgad, tulge kokku
+  artist: 
+    - M. Kuusik
+    - P.J. Peters
+  lyrics: |
+    Rahvahulgad, tulge kokku
+    Emajõe kaldale!
+    Tahad tunda õiget rõõmu,
+    anna käed minule!
+    Vaiksel Emajõe kaldal
+    ainult tahan elada,
+    ilusamad eluaastad
+    veedan Taara linnas ma.
+    Meelitagu teised linnad
+    toreduse, iluga.
+    Lõunamaade haljad aasad,
+    Lõuna-ööd, Itaalia:
+    vaiksel Emajõe kaldal
+    ainult tahan armasta'.
+    Ilutseva silma sära
+    ütleb: "Siin võid armasta'!"
+    Otsas kui on elupäevad,
+    otsas kui on ilus arm,
+    vaiksel Emajõe kaldal
+    kaevake mul vaikne kalm.
+    Vaiksel Emajõe kaldal
+    ainult tahan surra ma;
+    seal, kus õnne jätkub hulgal',
+    seal on ilus puhata!
+
+
+- title: Rannalinna restoranis
+  artist: 
+  lyrics: |
+    Rannalinna restoranis
+    unises ja uhkes
+    :,: üle mitme-setme aasta
+    lõbus lööming puhkes. :,:
+    
+    Keegi oli kellelegi
+    pakkund oma pruuti,
+    :,: sõber oli lihtne hing
+    ja nalja tõena pruukis. :,:
+    
+    Asi tuli avalikuks,
+    aga üpris hilja,
+    :,: siis kui neiu oli paisund
+    võõrast ihuviljast. :,:
+    
+    Pulmad peeti restoranis,
+    unises ja uhkes.
+    :,: Peigmees vaene vagusasti
+    varjas meelehärmi. :,:
+    
+    Peldikus ei pidand vastu
+    nähes naervat sõpra,
+    :,: võttis põuest noa ja torkas
+    surnuks tolle tõpra. :,:
+
+
+- title: Robert tööd ei tahtnud teha
+  artist: 
+    - Rahvalik
+    - I. Goodman
+  lyrics: |
+    Robert tööd ei tahtnud teha,
+    ütles, lollid teevad tööd,
+    naised annavad mul raha,
+    nendega ma päeval, ööl.
+    
+    :,: Kus lauldi ja tralliti,
+    sinna veri vedas Roberti.
+    Kas olgu kõrts või baar
+    või lõbus õllesaal. :,:
+    
+    Varavalgest hilja ööni
+    Robert päeva varastas.
+    Meie ruttasime tööle,
+    Robi pead vaid parandas.
+    Viinaklaasid, õllekannud
+    elurütme määrasid.
+    Lõbus laul ja kaunid naised
+    Robi kaissu haarasid.
+    
+    Lõpuks Robert sai ka palga,
+    nüüd on lõbud lõppenud.
+    Kahju küll, kuid ma ei salga –
+    kurvavõitu õppetund.
+    Sattus rikka naise küüsi,
+    Robi lõõga tõmmati
+    ja siis nõnda pikkamööda
+    Robi surnuks joodeti.
+  
+
+- title: Ronge mööda sõitmas / Nukker veebruar
+  artist: 
+    - Heldur Karmo
+    - B. Bacharach
+  lyrics: |
+    Ronge mööda sõitmas aknast näen ...
+    On külm ja nukker veebruar käes,
+    kuid ikka sa ei saabu veel,
+    vaid teistele rõõmu toob
+    see vilgas rong, mis ruttab teel.
+    
+    Laevu muuli äärde sõitmas näen ...
+    On külm ja nukker veebruar käes
+    ning silmis mul on kustun'd naer,
+    vaid teistele rõõmu toob see hele laev.
+    
+    Terve aasta näinud nüüd pole sind.
+    Ei tea kas meenutad praegu
+    sa üldse koos oldud aegu,
+    kuid lootus veel pole jätnud mind,
+    sind ootan ma, kus viibid sa?
+
+    Ronge, laevu ööl ja päeval näen...
+    On külm ja nukker veebruar käes,
+    kui heldelt soe võiks olla ta,
+    kui tagasi jõuaks nüüd mu juurde sa,
+    kus viibid sa?
+
+
+- title: Roose kevad endaga toob
+  artist: Raimond Valgre
+  lyrics: |
+    Roose kevad endaga toob,
+    puhkeb rõõm ja süda on noor,
+    tuhandeid mõtteid täis pea.
+    Taeva taustal säravad söed,
+    lõhnab sirel sumedas öös...
+    Sinuga olla on hea.
+    
+    Veel viivuks jää, mu armsam,
+    hetkeks mu juurde veel jää.
+    Su kuju õrn ja vaade hell
+    su silmist - kes teab
+    mil neid ma jälle näen.
+    
+    Veel viivuks jää, mu armsam,
+    säilita hetkeks veel hurm
+    hellusest, soojusest
+    ja päikse paistest –
+    kevad on sinuta kurb.
+  
+
+- title: Roosiaias kõnnib nägus neid
+  artist: 
+    - J. Pori
+    - Saksa viis
+  lyrics: |
+    Roosiaias kõnnib nägus neid,
+    võlub austajate südameid.
+    Tema ümber roosid ilusad,
+    okkad torgivad, kui puudutad.
+    
+    Neiuke, miks kõnnid üksinda?
+    Kardad sa, et võiksin salaja
+    murda ehk vast kõige kaunima
+    roosi, mis võib leida aia peal?
+    
+    Mälestuseks neiult roosi sain,
+    teda unustada ma ei või.
+    Roosiaeda veel kord külastan,
+    võtan kaasa roosi kaunima.
+  
+
+- title: Rõõmu meis on Jumal loonud / Ood rõõmule
+  artist: 
+    - Fr. Schiller
+    - Leelo Tungal
+  lyrics: |
+    Rõõmu meis on Jumal loonud,
+    taevaliku sädeme.
+    Rõõm, kes sinu tuld on joonud,
+    teavad teed su templisse.
+    Teeb su lummus terveks haavad,
+    lahkuläinud kokku viib.
+    Vendadeks kõik rahvad saavad,
+    siis, kui puutub neid su tiib.
+    
+    Rõõmuga meid joodab loodus,
+    emana meid toidab ta.
+    Olgu heaks või halvaks loodud –
+    roose teelt võid leida sa.
+    Suudlusi ja marjavääte,
+    sõbra truugi rõõmult said.
+    Iharad, te hukka saate,
+    ingel kaitseb uskujaid.
+
+
+- title: Rõõmus üliõpilane
+  artist: F. Otto
+  lyrics: |
+    Rõõmus üliõpilane
+    olen mina alati.
+    Kui ma rändan mööda ilma,
+    pole muret iialgi.
+    
+    :,: Ma rõõmus siin, ma rõõmus seal, :,:
+    siin ja seal on meie kodumaa,
+    ubi bene, ibi patria!
+    
+    Olen mitmes linnas käinud,
+    mitmes ülikoolis ka;
+    viimaks Tartu linna jõudsin,
+    et siin veidi puhata.
+    
+    :,: Ma rõõmus siin, ma rõõmus seal, :,:
+    siin ja seal on meie kodumaa,
+    ubi bene, ibi patria!
+    
+    Raamatud ja kõik muu puru
+    jäägu minust eemale,
+    rõõm ja lust see ikka olgu
+    alati mu saatija.
+    
+    Kui mul raha taskus pole,
+    voorimees ei sõida ka,
+    ratsutan siis kitsepulka,
+    iseendal voorimees.
+    
+    Naised mulle väga armsad,
+    väga kallid on nad mull'.
+    Olgu tömp või kreeka nina
+    suudlen neid ma alati.
+
+    Neiukene, ära nuta,
+    ära vala pisaraid.
+    Tule suudle mind ja naera,
+    laula laule lõbusaid.
+    
+    Kui ma viimaks järel' mõtlen,
+    mis kord saatus minust teeb,
+    aasta viie-kuue pärast
+    minust vist minister saab.
+
+
+- title: Sadamasse laev kui tuleb
+  artist: 
+  lyrics: |
+    Sadamasse laev kui tuleb,
+    täna võeraid keeli kuuled
+    Grand Marino ja Grand Marino.
+    Mööda veerust neeger jõlkus,
+    kaval mõte meeles mõlkus
+    Grand Marino ja Grand Marino.
+    Taskus kõlises tal sterling,
+    seda kuulis kena preiling
+    Grand Marino ja Grand Marino.
+    Tema tõstab kleiti, näitab sukka,
+    müksab neegril küünarnukka
+    Grand Marino ja Grand Marino.
+
+    Sealt Narva maanteelt ülesse
+    lä'eb neeger restoranisse
+    Grand Marino ja Grand Marino.
+    Siis trepist üles number viis,
+    kus neeger hakkab kütma siis
+    Grand Marino ja Grand Marino.
+    Ei hommikuks pold järel muud,
+    kui kopsud, soolikad ja luud
+    Grand Marino ja Grand Marino.
+    
+    Heaks muudab kõiki paha,
+    siin maailmas ikka raha
+    Grand Marino ja Grand Marino.
+    Kui sul armastus ei sobi
+    joo siis ikka aitab "mani"
+    Grand Marino ja Grand Marino.
+    Oled inetu või hirmus,
+    aga süda tuksub armus
+    Grand Marino ja Grand Marino.
+    Daami ilust sobib laulda,
+    aga ära meelt sa heida,
+    aga kui on võimalik,
+    siis raha tarvita.
+    
+    Sest raha, sel on imekange vägi,
+    raha eest saad andeks mitme häbi.
+    Raha eest sul sobib armasta
+    ja raha eest saad igavese mälestuse sa!
+
+
+- title: Sai otsa töönädal just
+  artist: 
+    - P. Aimla
+    - K. Kilvet
+  lyrics: |
+    Sai otsa töönädal just
+    ja selg oli mul päris must.
+    Lasin vanni vett, lõin vahule,
+    panin varbad sisse, jäin rahule.
+    Ihu riidest lahti kiskusin
+    ja vulpsti vanni viskusin.
+    
+    Reedene rõõm, oo reedene rõõm.
+    
+    Seal kustus mustus ja kõõm,
+    pea algas lustus ja rõõm!
+    Minu tusk oli viimseni pühitud -
+    kogu hing oli helgeks nühitud.
+    Nagu välk lõi sisse inspiratsioon
+    ja ma teadsin - oi, millise laulu nüüd loon.
+    
+    Reedene rõõm, oo reedene rõõm.
+    
+    See laul oli rõõmude laul,
+    see laul oli päikese laul!
+    See laul oli õnne ja armastust täis,
+    oli tulvil kirge, joovastust, aga vanniaugul,
+    aga vanniaugul kork tuli pealt
+    ja mu värss koos veega alla läks sealt...
+    
+    Reedene rõõm, oo reedene rõõm.
+    
+    Mu värss läks vanniveega tükkis,
+    läks torust alla valges vahus.
+    See laul ei ilmu iialgi trükis,
+    :,: mu lembelauluke, puhka rahus, :,:
+    mu lembelauluke, puhka rahus...
+
+    Reedene rõõm, oo reedene rõõm.
+
+    Läks roostes torru mu viis
+    ja maa alt rõskuse viis.
+    Süsteem, mis õõnsalt mulksuvat näis,
+    on mu ainsat laulu ääreni täis!
+    Ja ei maksagi olla heitunud,
+    ta on alles, mis sest, et peitunud
+    ja kui juhtub toru kord lõhkema,
+    tuleb tagasi laul, ei kõhkle ma!
+
+    Reedene rõõm, oo reedene rõõm.
+
+  
+- title: Sauna Antsul oli peni
+  artist: 
+  lyrics: |
+    Sauna Antsul oli peni,
+    ilus valge kutsikas.
+    Urises ja haukus seni,
+    kuni viimaks hammustas.
+    
+    Sauna Ants lõi peni maha
+    suure aiateibaga.
+    Mattis peni aida taha,
+    risti peale kirjutas:
+
+    Sauna Antsul oli peni,
+    ilus valge kutsikas.
+    Urises ja haukus seni,
+    kuni viimaks hammustas.
+
+
+- title: Sauna taga tiigi ääres
+  artist: H.J. Schmalz
+  lyrics: |
+    Sauna taga tiigi ääres
+    mängis Miku Manniga,
+    püüdsid väikseid konnapoegi
+    lõhkilöödud panniga.
+
+    Mul kodu kaugel maha jäi, jäi, jäi
+    ja väike neiu kurvaks sai, sai, sai
+    ning kui ta kuulis, et ma lähen ära kaugele,
+    ei tea kas tulen tagasi või sinna jään.
+
+    "Kuule, Manni," ütles Miku,
+    "eks see ole kena konn?
+    See vist selle suure konna
+    väike sugulane on?"
+    
+    Mul kodu kaugel maha jäi, jäi, jäi
+    ja väike neiu kurvaks sai, sai, sai
+    ning kui ta kuulis, et ma lähen ära kaugele,
+    ei tea kas tulen tagasi või sinna jään.
+
+    "Rumal Miku," vastas Manni,
+    "ei see ole päris konn:
+    suurel konnal neli jalga,
+    sellel ainult saba on."
+    
+    Mul kodu kaugel maha jäi, jäi, jäi
+    ja väike neiu kurvaks sai, sai, sai
+    ning kui ta kuulis, et ma lähen ära kaugele,
+    ei tea kas tulen tagasi või sinna jään.
+
+    Kes siis kohe saba pärast
+    konnapoega teiseks peab,
+    koeri küll on sabadeta,
+    seda ometi sa tead.
+    
+    Mul kodu kaugel maha jäi, jäi, jäi
+    ja väike neiu kurvaks sai, sai, sai
+    ning kui ta kuulis, et ma lähen ära kaugele,
+    ei tea kas tulen tagasi või sinna jään.
+
+    Looja ilma mõtlemata
+    konnapojal' saba lõi,
+    ei ta küsind, kas see talle
+    mingisugust kasu tõi.
+    
+    Mul kodu kaugel maha jäi, jäi, jäi
+    ja väike neiu kurvaks sai, sai, sai
+    ning kui ta kuulis, et ma lähen ära kaugele,
+    ei tea kas tulen tagasi või sinna jään.
+
+    "Kuule Miku", ütles Manni,
+    "aga see on siiski konn.
+    Kui sa teda muust ei tunne,
+    tal ju konna silmad on."
+    
+    Mul kodu kaugel maha jäi, jäi, jäi
+    ja väike neiu kurvaks sai, sai, sai
+    ning kui ta kuulis, et ma lähen ära kaugele,
+    ei tea kas tulen tagasi või sinna jään.
+
+    "Rumal Manni", ütles Miku,
+    "ei see pole siiski konn.
+    Mammal ka on konnasilmad,
+    aga ta ei ole konn."
+
+    Mul kodu kaugel maha jäi, jäi, jäi
+    ja väike neiu kurvaks sai, sai, sai
+    ning kui ta kuulis, et ma lähen ära kaugele,
+    ei tea kas tulen tagasi või sinna jään.
+
+
+- title: Seal, kus Läänemere lained laksuvad
+  artist: 
+    - Rahvalik
+    - S. Kranning
+  lyrics: |
+    Seal, kus Läänemere lained laksuvad,
+    seal, kus tuuled, tormid aina puhuvad –
+    seal on valge majak, valge nagu luik,
+    seal on minu kodu, seal mu sünnipaik.
+    
+    Mäletan, kui olin alles poisike,
+    mõtlesin, et lähen ära kaugele!
+    Nüüd on aastad läinud, vanaks olen saand,
+    lapsepõlvekodu ikka mull' meelde jäänd!
+    
+    Isa ja ema mul puhkavad ammu mulla all,
+    kallim neiu viibib teise rinna na'al,
+    õed ja vennad on läinud ilma laiali,
+    ainult kask on jäänud truuks mul surmani.
+
+    Rändamisest väsind, koju tulen ma,
+    vana kase alla istun puhkama.
+    Vana kase kohin mulle jutustab,
+    ammu möödund aegu meelde mul tuletab.
+
+
+- title: Seal, kus rukkiväli lagendikul heljub / Lapsepõlvekodu
   artist: 
   lyrics: |
   
+
+- title: Seal laupäevaõhtuselt lõhnavad kased / Saaremaa valss
+  artist: 
+  lyrics: |
   
+
+- title: Seal metsaserval väikses majas / Metsavendade laul
+  artist: 
+  lyrics: |
+  
+
+- title: Seal väikesel Balti merel / Kihnu saar
+  artist: 
+  lyrics: |
+  
+
+- title:  Sealt ju, mu kullake
+  artist: 
+  lyrics: |
+  
+- title: Seda õnne kõik ei aima
+  artist: 
+  lyrics: |
+  
+
+- title: See maailm, mis elab sinus
+  artist: 
+  lyrics: |
+  
+- title: See Mäeotsa talu, tirallala
+  artist: 
+  lyrics: |
+  
+
+- title: See oli ennemuistsel a'al
+  artist: 
+  lyrics: |
+  
+- title: See Vene riigi seadus 
+  artist: 
+  lyrics: |
+  
+
+- title: Sel hommikul nii vara
+  artist: 
+  lyrics: |
+  
+- title: Sel künkal algas imeline aas
+  artist: 
+  lyrics: |
+  
+
+- title: Siidilipp ja hõbepurjed
+  artist: 
+  lyrics: |
+  
+- title: Siis, kui aovalgus kaob / Vana vokk
+  artist: 
+  lyrics: |
+  
+
+- title: Siit joomalauast viiaks see 
+  artist: 
+  lyrics: |
+  
+- title: Silver, kus on sinu kullamäed / Silveri laul
+  artist: 
+  lyrics: |
+  
+
+- title: Sina esimese kursuse tudeng
+  artist: 
+  lyrics: |
+  
+- title: Sind ainult palun, isa / Palve isale
+  artist: 
+  lyrics: |
+  
+
+- title: Sind surmani
+  artist: 
+  lyrics: |
+  
+- title: Sinu ilusad sinised silmad
+  artist: 
+  lyrics: |
+  
+
+- title: Sinule kullast südant / Kullast süda
+  artist: 
+  lyrics: |
+  
+
+- title: Sitte oli kello
+  artist: 
+  lyrics: |
+  
+
+- title: Sultan on kuningas
+  artist: 
+  lyrics: |
+  
+- title: Su Põhjamaa päikese kullast
+  artist: 
+  lyrics: |
+  
+
+- title: Su silmade sära ei unune iial
+  artist: 
+  lyrics: |
+  
+- title: Suured koerad, väiksed koerad
+  artist: 
+  lyrics: |
+  
+
+- title: Suur Mari ja ka väike Peeter
+  artist: 
+  lyrics: |
+  
+- title: Sõber sporti tee
+  artist: 
+  lyrics: |
+  
+
+- title: Sõbrad, meie rõõmsas ringis
+  artist: 
+  lyrics: |
+  
+- title: Sõbrad teiega on hea / Sõprade laul
+  artist: 
+  lyrics: |
 
 
 - title: 
   artist: 
   lyrics: |
-  
 
-- title: 
-  artist: 
-  lyrics: |
-  
-
-
-
-- title: 
-  artist: 
-  lyrics: |
-  
-
-- title: 
-  artist: 
-  lyrics: |
-  
-  
-
-
-
-
-- title: 
-  artist: 
-  lyrics: |
-  
-
-- title: 
-  artist: 
-  lyrics: |
-  
-  
-
-
-
-
-- title: 
-  artist: 
-  lyrics: |
-  
-
-- title: 
-  artist: 
-  lyrics: |
-  
-  
-
-
-
-
-- title: 
-  artist: 
-  lyrics: |
-  
-
-- title: 
-  artist: 
-  lyrics: |
-  
-  
-
-
-
-
-- title: 
-  artist: 
-  lyrics: |
-  
-
-- title: 
-  artist: 
-  lyrics: |
-  
-  
-
-
-
-
-- title: 
-  artist: 
-  lyrics: |
-  
-
-- title: 
-  artist: 
-  lyrics: |
-  
-  
-
-
-
-
-- title: 
-  artist: 
-  lyrics: |
-  
-
-- title: 
-  artist: 
-  lyrics: |
-  
-  
-
-
-
-
-- title: 
-  artist: 
-  lyrics: |
-  
-
-- title: 
-  artist: 
-  lyrics: |
-  
-  
-
-
-
-
-- title: 
-  artist: 
-  lyrics: |
-  
-
-- title: 
-  artist: 
-  lyrics: |
-  
-  
-
-
-
-
-- title: 
-  artist: 
-  lyrics: |
-  
-
-- title: 
-  artist: 
-  lyrics: |
-  
-  
-
-
-
-
-- title: 
-  artist: 
-  lyrics: |
-  
 
 - title: 
   artist: 
