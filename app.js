@@ -5,8 +5,7 @@ async function loadSongs() {
         const response = await fetch('songs.yaml');
         const yamlText = await response.text();
         songs = jsyaml.load(yamlText);
-        console.log('Loaded songs:', songs); // Debugging
-        displaySongs(songs);
+        songs.sort((a, b) => (a?.title || '\uffff').localeCompare(b?.title || '\uffff'));        displaySongs(songs);
         handleUrlParams();
     } catch (error) {
         console.error('Error loading songs:', error);
