@@ -61,17 +61,36 @@ function displaySongs(songsToDisplay) {
     console.log('Displayed songs:', songsToDisplay.length);
 }
 
-function displayLyrics(song) {
+async function displayLyrics(song) {
     if (window.innerWidth < 768) {
-        document.getElementById('song-list').style.display = 'none';
-        document.getElementById('lyrics-display').style.display = 'block';
-        document.getElementById('back-button').style.display = 'block';
+        if (document.startViewTransition) {
+            await document.startViewTransition(async () => {
+                document.getElementById('song-list').style.display = 'none';
+                document.getElementById('lyrics-display').style.display = 'block';
+                document.getElementById('back-button').style.display = 'block';
+                updateLyricsContent(song);
+            }).finished;
+        } else {
+            document.getElementById('song-list').style.display = 'none';
+            document.getElementById('lyrics-display').style.display = 'block';
+            document.getElementById('back-button').style.display = 'block';
+            updateLyricsContent(song);
+        }
+    } else {
+        updateLyricsContent(song);
     }
+
+    // Update URL with song title
+    const url = new URL(window.location);
+    url.searchParams.set('song', encodeURIComponent(song.title));
+    window.history.pushState({}, '', url);
+}
+
+function updateLyricsContent(song) {
     document.getElementById('song-title').textContent = song.title;
     const artistElement = document.getElementById('song-artist');
     artistElement.innerHTML = '';
     
-    // Handle both single artist (string) and multiple artists (array) cases
     const artistList = Array.isArray(song.artist) ? song.artist : [song.artist];
     
     artistList.forEach((artist, index) => {
@@ -84,20 +103,24 @@ function displayLyrics(song) {
         }
     });
     document.getElementById('song-lyrics').textContent = song.lyrics;
-
-    // Update URL with song title
-    const url = new URL(window.location);
-    url.searchParams.set('song', encodeURIComponent(song.title));
-    window.history.pushState({}, '', url);
 }
 
-function searchByArtist(artist) {
+async function searchByArtist(artist) {
     document.getElementById('search-bar').value = `a:${artist}`;
     performSearch();
+    
     if (window.innerWidth < 768) {
-        document.getElementById('lyrics-display').style.display = 'none';
-        document.getElementById('song-list').style.display = 'block';
-        document.getElementById('back-button').style.display = 'none';
+        if (document.startViewTransition) {
+            await document.startViewTransition(async () => {
+                document.getElementById('lyrics-display').style.display = 'none';
+                document.getElementById('song-list').style.display = 'block';
+                document.getElementById('back-button').style.display = 'none';
+            }).finished;
+        } else {
+            document.getElementById('lyrics-display').style.display = 'none';
+            document.getElementById('song-list').style.display = 'block';
+            document.getElementById('back-button').style.display = 'none';
+        }
     }
 }
 
@@ -116,7 +139,7 @@ document.getElementById('back-button').onclick = () => {
 function performSearch() {
     const searchTerm = document.getElementById('search-bar').value.toLowerCase();
     const searchLyrics = document.getElementById('search-lyrics').checked;
-        
+
     let filteredSongs;
     if (searchTerm.startsWith('a:')) {
         const artistSearchTerm = searchTerm.slice(2).trim();
