@@ -106,6 +106,35 @@
       min-width: 0;
     }
 
+    #search-input-container.hide-search {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    #search-input-container.hide-search input,
+    #search-input-container.hide-search #clear-search,
+    #search-input-container.hide-search .checkbox-container {
+        display: none;
+    }
+
+    #search-input-container.hide-search #back-button {
+        margin-right: 0;
+    }
+
+    body.lyrics-view #search-input-container {
+      background-color: transparent;
+    }
+
+    body.lyrics-view #search-input-container #search-bar,
+    body.lyrics-view #search-input-container #clear-search {
+        background-color: transparent;
+    }
+
+    body.lyrics-view #search-input-container .checkbox-container {
+        display: none; /* Since you already hide this in hide-search */
+    }
+  
+
     
     #search-bar {
       flex: 1;
@@ -303,4 +332,25 @@
     
     input:checked + .slider:before {
       transform: translateX(24px);
+    }
+
+    
+
+    .play-button {
+      background-color: var(--highlight-color);
+      color: var(--text-color);
+      border: none;
+      border-radius: 50%;
+      padding: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+  
+    .play-button:hover {
+      background-color: darken(var(--highlight-color), 10%); 
+    }
+  
+    /* Optional: Add a subtle box-shadow */
+    .play-button {
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }

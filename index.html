@@ -55,6 +55,15 @@
             <h2 id="song-title"></h2>
             <h3 id="song-artist"></h3>
             <pre id="song-lyrics"></pre>
+            <div id="audio-player-container">
+              <button id="play-audio-btn" class="play-button" style="display:none">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-play-circle">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="10 8 16 12 10 16"></polygon>
+                </svg>
+              </button>
+              <audio id="song-audio" controls style="display: none;"></audio>
+            </div>
         </div>
     </div>
     

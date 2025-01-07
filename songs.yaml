@@ -2,6 +2,7 @@
   artist: 
     - Karl Eduard Sööt
     - Aleksander Läte
+  path: "./audio/lipulaul.mp3"
   lyrics: |
     Vennad, siin on venna käsi,
     ühisuses edasi!
@@ -455,6 +456,7 @@
 
 - title: Alati olen mina lustilik, lustilik
   artist: Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/refs/heads/main/Alati_olen_mina_lustilik.opus"
   lyrics: |
     Alati olen mina lustilik, lustilik,
     alati meeldib mul viin,
@@ -696,6 +698,7 @@
   artist: 
     - Friedrich Kuhlbars
     - F.A. Schultz
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/refs/heads/main/Eestimaa_mu_isamaa.opus"
   lyrics: |
     Eestimaa, mu isamaa,
     kuis mull' armas oled sa!
