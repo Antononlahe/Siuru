@@ -1,4 +1,5 @@
 let songs = [];
+let currentPlayingSong = null; 
 
 async function loadSongs() {
     try {
@@ -93,6 +94,14 @@ async function displayLyrics(song) {
     const url = new URL(window.location);
     url.searchParams.set('song', encodeURIComponent(song.title));
     window.history.pushState({}, '', url);
+    
+    if (currentPlayingSong && currentPlayingSong !== song) {
+        currentPlayingSong.audioPlayer.pause(); 
+      }
+    currentPlayingSong = { 
+        song: song, 
+        audioPlayer: document.getElementById('song-audio') 
+    };
     setupAudioPlayer(song);
 }
 
@@ -204,6 +213,11 @@ document.getElementById('back-button').onclick = () => {
     const url = new URL(window.location);
     url.searchParams.delete('song');
     window.history.pushState({}, '', url);
+
+    if (currentPlayingSong) {
+        currentPlayingSong.audioPlayer.pause(); 
+        currentPlayingSong = null; // Clear currentPlayingSong on back button click
+    }
 };
 
 window.addEventListener('popstate', function(event) {
