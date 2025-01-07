@@ -93,6 +93,7 @@ async function displayLyrics(song) {
     const url = new URL(window.location);
     url.searchParams.set('song', encodeURIComponent(song.title));
     window.history.pushState({}, '', url);
+    setupAudioPlayer(song);
 }
 
 // Audio player functionality
@@ -162,7 +163,6 @@ function updateLyricsContent(song) {
         }
     });
     document.getElementById('song-lyrics').textContent = song.lyrics;
-    setupAudioPlayer(song);
 }
 
 async function searchByArtist(artist) {
