@@ -71,6 +71,7 @@
 
 - title: Läti hümn
   artist: Kārlis Baumanis
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/refs/heads/main/Dievs_sv%C4%93t%C4%AB_Latviju_Latvian_National_anthem_God_bless_Latvia.opus"
   lyrics: |
     Dievs, svētī Latviju!
     Mūs' dārgo tēviju
@@ -430,6 +431,7 @@
 
 - title: Aeg läheb, aga õnn ei kao
   artist: Filmist "Suvi"
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/refs/heads/main/Aeg_l%C3%A4heb_aga_%C3%B5nn_ei_kao.opus"
   lyrics: |
     Aeg läheb, aga õnn ei kao,
     kui ise oled mees:
@@ -495,6 +497,7 @@
 
 - title: Algamas pidu
   artist: Christian Wilhelm Kindleben
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/refs/heads/main/Algamas_pidu_Ca_ca_geschmauset.opus"
   lyrics: |
     Algamas pidu 
     poisid meil täna mölluks lääb!
@@ -538,6 +541,7 @@
 
 - title: Ants oli aus saunamees
   artist: Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/refs/heads/main/Ants_oli_aus_saunamees.opus"
   lyrics: |
     Ants oli aus saunamees,
     saun oli paksu metsa sees,
@@ -572,6 +576,7 @@
 
 - title: Läbi saju
   artist: Raimond Valgre, Albert Vennola
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/refs/heads/main/Armastusel_kummalised_teed_L%C3%A4bi_saju.opus"
   lyrics: |
     Armastusel kummalised teed,
     armud vahel päeval, armud ööl.
@@ -601,6 +606,7 @@
 
 - title: Boni laul
   artist: I. Kálmáni operettist "Silva"
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/refs/heads/main/Armastusest_olen_t%C3%BCdind_Boni_laul.opus"
   lyrics: |
     Armastusest olen tüdin'd,
     seda ma nüüd näen.
