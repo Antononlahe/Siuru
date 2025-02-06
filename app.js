@@ -6,7 +6,8 @@ async function loadSongs() {
         const response = await fetch('songs.yaml');
         const yamlText = await response.text();
         songs = jsyaml.load(yamlText);
-        songs.sort((a, b) => (a?.title || '\uffff').localeCompare(b?.title || '\uffff'));        displaySongs(songs);
+        songs.sort((a, b) => (a?.title || '\uffff').localeCompare(b?.title || '\uffff'));        
+        displaySongs(songs);
         handleUrlParams();
     } catch (error) {
         console.error('Error loading songs:', error);
@@ -25,6 +26,13 @@ function displaySongs(songsToDisplay) {
         
         const title = document.createElement('span');
         title.textContent = song.title;
+
+        ////////////////////////////////
+        if (song.path) {
+            title.textContent += ' 🎵'; // Append the musical note emoji
+        }
+        ////////////////////////////////
+
         title.className = 'title';
         li.appendChild(title);
         
@@ -55,6 +63,10 @@ function displaySongs(songsToDisplay) {
         preview.textContent = getFirstFourWords(song.lyrics) + '...';
         preview.className = 'preview';
         li.appendChild(preview);
+
+        if (currentPlayingSong && song.title === currentPlayingSong.song.title) {
+            li.classList.add('selected');
+        }
         
         li.onclick = () => displayLyrics(song);
         songList.appendChild(li);
@@ -102,6 +114,7 @@ async function displayLyrics(song) {
         song: song, 
         audioPlayer: document.getElementById('song-audio') 
     };
+    displaySongs(songs); 
     setupAudioPlayer(song);
 }
 

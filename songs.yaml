@@ -1,3 +1,5 @@
+#Ein_König_ist_der_Wein.opus ; mis laul see oli? Kuskil alguses pidi olema.
+
 - title: Korp! Vironia lipulaul
   artist: 
     - Karl Eduard Sööt
@@ -22,6 +24,7 @@
   artist: 
     - Johann Voldemar Jannsen
     - Friedrich Pacius
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Mu_isamaa_mu_%C3%B5nn_ja_r%C3%B5%C3%B5m.opus"
   lyrics: |
     Mu isamaa, mu õnn ja rõõm,
     kui kaunis oled sa!
@@ -130,6 +133,7 @@
 
 - title: Rootsi hümn
   artist: Richard Dybeck
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Du_Gamla_Du_Fria_Swedish_National_Anthem.opus"
   lyrics: |
     Du gamla, du fria, du fjällhöga Nord,
     du tysta, du glädjerika sköna!
@@ -283,6 +287,7 @@
 
 - title: Gaudeamus Igitur
   artist: Christian Wilhelm Kindleben
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Gaudeamus_Igitur.opus"
   lyrics: |
     :,: Gaudeamus igitur,
     iuvenes dum sumus! :,:
@@ -409,6 +414,7 @@
   artist: 
     - Ants Simm
     - Karl August Hindrey
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Aeg_kaob_kiirelt.opus"
   lyrics: |
     Aeg kaob kiirelt, ligemale liigub
     meil' vaiksel sammul lahkumise tund.
@@ -643,6 +649,7 @@
   artist:
   - vil! H. Päärt
   - vil! M. Jakobson
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Armsad_s%C3%B5brad_v%C3%B5tkem_kuulda.opus"
   lyrics: |
     Armsad sõbrad, tõstkem kannud
     vahutavat märjukest.
@@ -732,6 +739,7 @@
   artist: 
     - Peeter Grünfeldt
     - Konstantin Türnpu
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Eesti_mu_armas_kallis.opus"
   lyrics: |
     Eesti, mu armas kallis kodumaa,
     mu ilus maa, mu püha maa.
@@ -781,6 +789,7 @@
 
 - title: Eidekene ketrab
   artist: Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Eidekene_ketrab.opus"
   lyrics: |
     Eidekene ketrab, heietab lõnga,
     heietab kondisel käel,
@@ -825,6 +834,7 @@
 
 - title: Ei meelest läe mul iial
   artist: Ülo Vinter
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Ei_meelest_l%C3%A4e_mul_iial.opus"
   lyrics: |
     Ei meelest läe mul iial
     Le Havre'i kuumad ööd.
@@ -857,6 +867,7 @@
   artist: 
     - Heino Mikiver
     - Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Ei_ma_karda_allveepaati.opus"
   lyrics: |
     Ei mina karda allveepaati,
     vilistan, kui näen granaati! Põmm!
@@ -872,6 +883,7 @@
 
 - title: Ei mul pole mõisa, mul pole valda
   artist: Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Mul_pole_m%C3%B5isa.opus"
   lyrics: |
     :,: Ei mul pole mõisa, mul pole valda,
     mul pole muud kui kõrtsmik kalla. :,:
@@ -929,6 +941,7 @@
 
 - title: Kuusteist Kannu
   artist: Riho Roodla
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Ei_otse_koju_l%C3%A4e_kui_k%C3%A4es_on_palgapaev_16%20kannu.opus"
   lyrics: |
     Ei otse koju läe, kui käes on palgapäev,
     vaid sätin sammud linna poole.
@@ -1002,6 +1015,7 @@
   artist: 
     - Heldur Karmo
     - Cy Coben, Charles Grean
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Ei_talumees_tudrukult_tahtnudki_muud_Suur_lilleaed.opus"
   lyrics: |
     Ei talumees tüdrukult tahtnudki muud,
     kui kanala taga kord anda vaid ...
@@ -1047,6 +1061,7 @@
   artist: 
     - Vally Ojavere
     - Fred Spielman
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Ei_tee_mind_kurvaks_see_Valged_roosid.opus"
   lyrics: |
     Ei tee mind kurvaks see, mis läind, ja milleks?
     Mul on üks päev, mis meelest eal ei kao:
@@ -1206,6 +1221,7 @@
 
 - title: Elas Tartus neiu noor ja ilus
   artist: 
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Tartu_neiu.opus"
   lyrics: |    
     Elas Tartus neiu noor ja ilus,
     sõdurpoissi õrnalt armastas.
@@ -1232,6 +1248,7 @@
 
 - title: Joogilaul
   artist: Raimond Valgre
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Elus_pole_alati_k%C3%B5ik_nali.opus"
   lyrics: |
     Elus pole alati kõik nali,
     elu toob meil rõõme, kurvastust,
@@ -1251,6 +1268,7 @@
 
 - title: Emajõe jutustus
   artist: S. Lipp
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Emaj%C3%B5e_peal.opus"
   lyrics: |    
     Emajõe pääl kurb kaebehääl,
     nutab maailm, pisarais silm.
@@ -1267,6 +1285,7 @@
   artist: 
     - M. Hunt
     - R. Paxton
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Ema_mu_armas_ja_hea.opus"
   lyrics: |
     Ema, mu armas ja hea,
     kaua ei ole sind näinud.
@@ -1288,6 +1307,7 @@
   artist:
     - P. Abel 
     - Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Enne_veel_kui_kustub_eha.opus"
   lyrics: |    
     Enne veel kui kustub eha,
     lähen lahingusse ma, valerii-valeraa!
@@ -1377,6 +1397,7 @@
   artist: 
     - G. Ernesaks
     - Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Hakkame_mehed_minema.opus"
   lyrics: |
     Hakkame, mehed, minema
     kodu poole kõndima,
@@ -1395,6 +1416,7 @@
   artist: 
     - J. Räppo
     - Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Haanja_miis.opus"
   lyrics: |
     Haanja miis vidi lubjakivve
     kolm päivä Võrolõ.
@@ -1480,6 +1502,7 @@
 
 - title: Hei-jah meil tuleb tõusta
   artist: Henno Käo
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Hei_jah_meil_tuleb_t%C3%B5usta.opus"
   lyrics: |
     :,: Hei-jah meil tuleb tõusta, :,:
     hei-jah meil tuleb tõusta,
@@ -1512,6 +1535,7 @@
 
 - title: Hei, poisid, kas olete valmis?
   artist: Jaak Johanson
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Laskub_%C3%BCks_haldjas.opus"
   lyrics: |
     Laskub üks haldjas, väsinud,
     aga sitke ja selgete silmega ja lausub:
@@ -1623,6 +1647,7 @@
 
 - title: Hoia, Jumal, Eestit
   artist: Leopold Raudkepp, Juhan Aavik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Hoia_jumal_Eestit.opus"
   lyrics: |
     Hoia, Jumal, Eestit,
     meie kodumaad.
@@ -1662,6 +1687,7 @@
   artist: 
     - A. Kempe
     - R. Valgre
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/H%C3%A4%C3%A4d_%C3%B6%C3%B6d.opus"
   lyrics: |
     Hääd ööd, hääd ööd!
     Lõppenud on päev.
@@ -1687,6 +1713,7 @@
   artist: 
     - P.E. Rummo
     - U. Naissoo
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Iga_mees_on_oma_saatuse_sepp,opus.opus"
   lyrics: |
     Iga mees on oma saatuse sepp
     ja oma õnne valaja. Jaa - jaa - jaa!
@@ -1747,6 +1774,7 @@
 
 - title: Ilus naabri neiuke
   artist: Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Ilus_naabrineiuke.opus"
   lyrics: |
     Ilus naabri neiuke
     oli minu armuke.
@@ -1889,6 +1917,7 @@
   artist: 
     - Lydia Koidula
     - J. Ennola
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Isamaa_hiilgava_pinnalta.opus"
   lyrics: |
     Isamaa hiilgava pinnalta paistab
     kodu meil kaunike, kallike.
@@ -1973,8 +2002,9 @@
 
 - title: Jaanipäevaks kõrgeks kasvab rohi
   artist: 
-  - Hando Runnel 
-  - V. Toomemets
+    - Hando Runnel 
+    - V. Toomemets
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Jaanip%C3%A4evaks_k%C3%B5rgeks_kasvab_rohi.opus"
   lyrics: |
     Jaanipäevaks kõrgeks kasvab rohi,
     rinnust saadik kõrgub kastehein.
@@ -1999,6 +2029,7 @@
 
 - title: Joo, joo, vennake joo
   artist: 
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Joo_joo_vennake_joo.opus"
   lyrics: |
     Joo, joo, vennake joo,
     muredest loobuma pead,
@@ -2019,6 +2050,7 @@
   artist: 
     - S. Lipp
     - C. Brandt
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Ju_laias_laanes.opus"
   lyrics: |
     Ju laias laanes laul vaikinud
     ja hõiskamas ei kuule ööbikut.
@@ -2080,6 +2112,7 @@
 
 - title: Jää terveks mu kodurand
   artist: 
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/J%C3%A4%C3%A4_terveks_mu_kodumaa_rand.opus"
   lyrics: |
     Jää terveks mu kodurand silmade ees,
     sind peidavad lainete vood.
@@ -2679,6 +2712,7 @@
   artist: 
     - M. Lipp
     - E. Võrk
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Kaunistage_Eesti_kodud.opus"
   lyrics: |
     Kaunistagem Eesti kojad
     kolme koduvärviga,
@@ -2889,6 +2923,7 @@
 
 - title: Erika
   artist: 
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Koduk%C3%BClla_maha_j%C3%A4i.opus"
   lyrics: |
     Kodukülla maha jäi mu neiuke;
     nimeks tal – Erika!
@@ -4785,6 +4820,7 @@
   artist: 
     - Heldur Karmo
     - J. Christie
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Vana_j%C3%B5gi.opus"
   lyrics: |
     Jätma pean mõneks ajaks sind,
     sest kuskil jälle on ootamas mind
@@ -4861,6 +4897,7 @@
   artist: 
     - H. Käo
     - L. Fiatt
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/K%C3%B5ik_metsaloomad_teadsid_ammu.opus"
   lyrics: |
     Kõik metsaloomad teadsid ammu juba,
     et varsti tuleb inimjahi luba,
@@ -6164,6 +6201,7 @@
 
 - title: Ma vaatan paadist kiikriga
   artist: Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Ma_vaatan_paadist_kiikriga.opus"
   lyrics: |
     :,: Ma vaatan paadist kiikriga,
     kui kaugel on see Saaremaa. :,:
@@ -6290,6 +6328,7 @@
 
 - title: Jää vabaks Eesti meri
   artist: V. Oksvort
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Meil_merevood_on_vabad.opus"
   lyrics: |
     Meil merevood on vabad
     ja võimsalt mühavad
@@ -6739,6 +6778,7 @@
   artist: 
     - K. Ristikivi
     - T. Tepandi
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Minagi_olin_arkaadia_teel.opus"
   lyrics: |
     Minagi olin Arkaadia teel,
     kuigi ma sündisin saunas.
@@ -6769,6 +6809,7 @@
   artist: 
     - M. Veske
     - K.A. Hermann
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Mingem_%C3%BCles_m%C3%A4gedele.opus"
   lyrics: |
     Minge üles mägedele,
     tuule õrnal' õhule!
@@ -6847,6 +6888,7 @@
 
 - title: Jahimeeste koor
   artist: C.M. v. Weber
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Mis_kaunim_veel.opus"
   lyrics: |
     Mis kaunim veel maailmas küttimisretkest?
     Me elupokaal on siis ääreni täis.
@@ -6911,6 +6953,7 @@
   artist: 
     - P. Aimla
     - J. Aarma
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Mis_veetlev_piknik.opus"
   lyrics: |
     Mis veetlev piknik suises metsatukas,
     kui eemale jäi karske päeva praht!
@@ -8799,6 +8842,7 @@
   artist: 
     - Rahvalik
     - A.E. Müller
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Pea_%C3%B5itsvad_lilled.opus"
   lyrics: |
     :,: Pea õits'vad lilled, pea õits'vad roosid,
     pea õitseb lill - ära-unusta-mind. :,:
@@ -9415,6 +9459,7 @@
 
 - title: Sadamasse laev kui tuleb
   artist: 
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Sadamasse_laev_kui_tuli.opus"
   lyrics: |
     Sadamasse laev kui tuleb,
     täna võeraid keeli kuuled
@@ -13624,6 +13669,7 @@
 - title: Ei saa me läbi Lätita
   artist: 
     - Hando Runnel
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Ei_saa_me_l%C3%A4bi_l%C3%A4tita.opus"
   lyrics: |
     Ei saa me läbi Lätita
     Ja Venemaa meelest ei lähe
@@ -13790,6 +13836,7 @@
 
 - title:  Aita mööda saata öö 
   artist: Ivo Linna
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Aita_m%C3%B6%C3%B6da_saata_%C3%B6%C3%B6.opus"
   lyrics: |
     Sõlmi juustest lahti pael
     heida põrandale see

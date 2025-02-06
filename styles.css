@@ -354,3 +354,8 @@
     .play-button {
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
+
+
+    #songs li.selected {
+      background-color: #291551 !important; /* Use a darker shade for selection */
+  }
