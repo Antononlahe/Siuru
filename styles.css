@@ -189,9 +189,7 @@
       flex-direction: column;
     }
     
-    #songs li:hover {
-      background-color: var(--highlight-color);
-    }
+    
     
     #songs li .title {
       font-weight: bold;
@@ -359,3 +357,17 @@
     #songs li.selected {
       background-color: #291551 !important; /* Use a darker shade for selection */
   }
+
+  .light-mode #songs li.selected {
+    background-color: #ffb8b8 !important;
+}
+
+
+  .light-mode #songs li:hover {
+  background-color: #ffb8b8;
+}
+
+#songs li:hover {
+  background-color: #291551;
+}
+
