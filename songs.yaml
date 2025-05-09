@@ -243,6 +243,7 @@
   artist: 
     - Martin Lipp
     - Prantsuse rahvaviis
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kus_eesti_rinnas_tuksub_julge_s%C3%BCda.opus"
   lyrics: |
     Kus eesti rinnus tuksub julge süda,
     kus veri soontes kuumalt lainetab,
@@ -3080,6 +3081,7 @@
   artist: 
     - Heldur Karmo
     - D. Foley
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Konn_astus_usinasti.opus"
   lyrics: |
     :,: Konn astus usinasti mööda teed,
     ja-jaa, ja-jaa, :,:
@@ -3145,6 +3147,7 @@
 
 - title: Kord elas mölder veski pääl
   artist: Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kord_elas_m%C3%B6lder_veski_peal.opus"
   lyrics: |
     Kord elas mölder veski peal,
     tšimmai-ruudi-ralla,
@@ -3279,6 +3282,7 @@
 
 - title: Kord ma pargis tukkusin
   artist: Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kord_ma_pargis_tukkusin.opus"
   lyrics: |
     Kord ma pargis tukkusin,
     kisa peale ärkasin.
@@ -3317,6 +3321,7 @@
   artist: 
     - K. Ruut
     - K.A. Hermann
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kord_m%C3%B5tetes_istus_%C3%BCks_emake_nii.opus"
   lyrics: |
     Kord mõtetes istus :,: üks emake nii: :,:
     :,: "Ei tea, kus rändab mu pojake prii?" :,:
@@ -3330,6 +3335,7 @@
 
 - title: Kord olid niidud rohelust täis
   artist: Heldur Karmo
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kord_olid_niidud.opus"
   lyrics: |
     Kord olid niidud rohelust täis,
     pilv taevavõlvist vaid harva üle käis.
@@ -3485,6 +3491,7 @@
   artist: 
     - Ch.F. Wedekind
     - J. Uluots
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Krambambuli_on_joogi_nimi.opus"
   lyrics: |
     Krambambuli on joogi nimi,
     mis vahul klaasides meil keeb.
@@ -3619,6 +3626,7 @@
   artist: 
     - M. Veske
     - F. Schubert
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kui_kallist_kodust_l%C3%A4ksin.opus"
   lyrics: |
     Kui kallist kodust läksin
     :,: ma kurvalt kaugele, :,:
@@ -3833,6 +3841,7 @@
   artist: 
   - K.A. Hermann
   - Rahvaviis
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kui_mina_alles_noor_veel_olin.opus"
   lyrics: |
     Kui mina alles :,: noor veel olin, :,:
     lapsepõlves :,: mängisin. :,:
@@ -3852,6 +3861,7 @@
 
 - title: Kui mina alles, umpa, umpa
   artist: Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kui_mina%20_alles_umpa_umpa.opus"
   lyrics: |
     Kui mina alles, umpa, umpa,
     noor veel olin, umpa, umpa,
@@ -3916,6 +3926,7 @@
 
 - title: Kui mina olin väiksekene
   artist: Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kui_mina_olin_v%C3%A4iksekene.opus"
   lyrics: |
     Kui mina olin väiksekene, alleaa, alleaa,
     kasvasin ma kannikene, alleaa, alleaa.
@@ -4017,6 +4028,7 @@
 
 - title: Kui on jõudnud sügise
   artist: 
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kui_on_j%C3%B5udnud_s%C3%BCgise.opus"
   lyrics: |
     Kui on jõudnud sügise,
     kolletavad lehed,
@@ -4080,6 +4092,7 @@
   artist: 
     - E. Vetemaa
     - Ü. Vinter
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kui_on_meri_h%C3%BClgehall.opus"
   lyrics: |
     Kui on meri hülgehall ja sind ründamas suur hall,
     kui on meri hülgehall ja sind ründamas on suur hall.
@@ -4552,10 +4565,11 @@
     seitsmes saare taadilt, eidelt.
   
 
-- title: Kuldne õhtupäike???
+- title: Kuldne õhtupäike
   artist: 
     - A. Piirikivi
     - Salmi rahvaviis
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kuldne_%C3%B5htup%C3%A4ike.opus"
   lyrics: |
     Kuldne õhtupäike, ilus oled saa,
     :,: kui sa viimse läike saadad üle maa! :,:
@@ -4565,6 +4579,15 @@
       Siis võid kartmata mäest alla lennata,
       üheskoos, täies hoos, minuga, vallera!
 
+      :,: Ai Maam, ai maam, see poiss on jälle siin,
+      kes mulle suhkrusaia tõi ja ise ära sõi. :,:
+      :,: Ai trika-trika-trika-trika trallalallallaa,
+      mu simmikingad kontsata ja taldu pole all. :,:
+      :,: Ei vabariigi sõdurit ei leina neiu rind,
+      vaid teda leinab ainult meie vabariigi pind. :,:
+      :,: Käi välja, välja vabariigi seest,
+      kes joovad Eesti viina ja ei räägi eesti keelt! :,: 
+
     Rõõmsaks muudad meele, kui sind näen ma!
     Laulma paned keele õhtu ehaga.
     
@@ -4572,33 +4595,34 @@
     Hommikul meil' koidad uue iluga!
   
   
-- title: Kuldrannake, kuldrannake
+- title: Kuldrannake kuldrannake
   artist: 
     - A. Reinvald
     - A. Läte
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kuldrannake.opus"
   lyrics: |
-    Kuldrannake
+    Kuldrannake kuldrannake
     mil jõuab laev su kaldale!
     Ju vara kalli koiduga
     su poole võtsin purjeta',
     silm siiski kallast veel ei näe
     siit üle kõrge lainemäe.
     
-    Kuldrannake
+    Kuldrannake kuldrannake
     mil jõuab laev su kaldale!
     Siin alles võõra ilma piir,
     ei läigi ranna siniviir
     sealt üle elumere vee,
     kus lõpeb igav laevatee!
 
-    Kuldrannake
+    Kuldrannake kuldrannake
     mil jõuab laev su kaldale!
     Ma ohkan siin kui väsind lind,
     oh otsatu on merepind!
     Ei tuul mu laeva lendes a'a,
     ei mina iial randa saa!
     
-    Kuldrannake
+    Kuldrannake kuldrannake
     mil jõuab laev su kaldale?
     Küll õhtueha paiste sees
     sind näen sinetamas ees,
@@ -4708,6 +4732,7 @@
 
 - title: Kus pidu iial peetakse
   artist: 
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kus_pidu_iial_peetakse.opus"
   lyrics: |
     :,: Kus pidu iial peetakse,
     seal näha võite mind. :,:
@@ -5442,10 +5467,11 @@
       :,: Hõissa ja hõissassaa! :,:
   
 
-- title: Koit
+- title: Koit / Laulud nüüd lähevad
   artist: 
     - F. Kuhlbars
     - M. Lüdig
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Koit.opus"
   lyrics: |
     Laulud nüüd lähevad kaunimal kõlal,
     :,: vägevail voogudel üle me maa. :,:
@@ -13056,6 +13082,7 @@
 
 - title: Kui poissmees mina olin 
   artist: Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kui_poissmees_mina_olin.opus"
   lyrics: |
     :,: Kui poissmees mina olin
     ja Tallinnasse tulin
@@ -13594,14 +13621,15 @@
 
 - title: Kui meri oleks õlu
   artist: PS Troika
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Ma_unistan_et_meri.opus"
   lyrics: |
-    Ma unistan,et meri oleks õllest
+    Ma unistan, et meri oleks õllest
     ja kutsuvalt ta vastu säraks õnnest
     nii vahva, mis siin üldse rääkida
     on juua merest õlut januga
     Saab unistustes erilise koha,
     et meres õrnalt lupsu lööks ka vobla
-    ja,et ta oleks kalamarja täis
+    ja, et ta oleks kalamarja täis
     ja poleks liiga soolane,va räim
 
     Siis kui meri oleks õlu,
@@ -13611,7 +13639,7 @@
     hakkaksin ma allveelaevaks
 
     Ja kui meri tõesti muutuks viinaks,
-    nii olgu,et ka heeringaid seal leiduks
+    nii olgu, et ka heeringaid seal leiduks
     ja neile lisaks hapukurke ka,
     et poleks vaja kaugelt otsida
 
