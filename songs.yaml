@@ -4,7 +4,7 @@
   artist: 
     - Karl Eduard Sööt
     - Aleksander Läte
-  path: "./audio/lipulaul.mp3"
+# path: "./audio/lipulaul.mp3"
   lyrics: |
     Vennad, siin on venna käsi,
     ühisuses edasi!
@@ -2140,6 +2140,7 @@
 
 - title: Kabala kõrtsis kraaksus Kadri
   artist: Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Kabala_k%C3%B5rtsis_kraaksus_Kadri.opus"
   lyrics: |
     Kabala kõrtsis kraaksus Kadri,
     et tema Ants on üsna tragi.
@@ -2194,6 +2195,7 @@
   artist: 
     - Juhan Viiding.
     - D. Anderson
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Kahe_r%C3%A4nnumehe_tee.opus"
   lyrics: |
     Kahe rännumehe tee viis mööda jõest,
     kaldal kaunis neiu valas pisaraid.
@@ -2220,6 +2222,7 @@
   artist: 
   - Rahvalik
   - Geoffrey O'Hara
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Ka_ka_ka_Kati.opus"
   lyrics: |
     Ka-ka-ka-Kati, minu armas Kati,
     sa oled ainus, ke-ke-kes mind võlund!
@@ -2239,8 +2242,9 @@
     
 - title: Kaks lauljat, üks noor ja teine vana
   artist: 
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Kaks_laulijat.opus"
   lyrics: |
-    Kaks laulijat, üks noor ja teine vana,
+    Kaks lauljat, üks noor ja teine vana,
     nad kõndisid kord uhke lossi pool.
     Noorem laulja võttis kandle põuest välja
     ja imeviise kostis selle peal.
@@ -2258,6 +2262,9 @@
 
 - title: Kalle Kusta
   artist: 
+    - Rahvalik
+    - William Steffe
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Kalle_kusta.opus"
   lyrics: |
     Kalle Kusta ostis omal valge hobuse,
     :,: Kalle Kusta ostis omal valge hobuse, :,:
@@ -2277,6 +2284,7 @@
   artist: 
     - E. Rexford
     - H. Danks
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Kallim_h%C3%B5bedaselt_sul.opus"
   lyrics: |
     Kallim, hõbedaselt sul
     helgib juba juuksekuld.
@@ -2344,6 +2352,7 @@
   artist: 
     - H. Käo
     - V. Kalborrek
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Karu_elab_loomaaias.opus"
   lyrics: |
     Karu elab loomaaias, matsakas ja muidu maias
     ja nii kõmbib tema aina - umpa-umpa-umpa-umpa.
@@ -2422,6 +2431,7 @@
   artist: 
     - M. Veske
     - F. Berat
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Kas_tunned_maad.opus"
   lyrics: |
     Kas tunned maad, mis Peipsi rannalt
     käib Läänemere kaldale
@@ -2529,6 +2539,7 @@
   artist: 
     - Hando Runnel
     - V. Toomemets
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Kaua_sa_kannatad.opus"
   lyrics: |
     Kaua sa kannatad kurbade naeru,
     võta need võtmed ja viruta kaevu.
@@ -2609,6 +2620,7 @@
   artist: 
     - H. Suurkask
     - Ameerika rahvaviis
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Kaugel_kaugel_kus_on_minu_kodu.opus"
   lyrics: |
     Kaugel, kaugel, kus on minu kodu
     kaugelt tervisi saadan ma sull.
@@ -2654,6 +2666,7 @@
   artist: 
     - P. Ruubel
     - F. Saebelmann
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Kaunimad_laulud.opus"
   lyrics: |
     Kaunimad laulud pühendan sull',
     vanematest armastatud kallis kodumaa!
@@ -2746,6 +2759,7 @@
   artist: 
     - K. Kass
     - A. Oit
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Kell_l%C3%B5i_seinal.opus"
   lyrics: |
     :,: Kell lõi seinal kill-killa-kolla, :,:
     kell lõi seinal, kill-killa-kolla lõi ja seisma jäi.
@@ -2862,6 +2876,7 @@
 
 - title: Kes on rikas, see vaid praadi süüa leegib
   artist: 
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Kes_on_rikas.opus"
   lyrics: |
     Kes on rikas, see vaid praadi süüa leegib,
     kes on vaene, see küll vesist suud vaid pühib,
@@ -2960,6 +2975,7 @@
   artist: 
     - Heldur Karmo
     - J. Kuoppamäki
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Kodust_v%C3%A4lja_tee_mind_viis.opus"
   lyrics: |
     Kodust välja tee mind viis,
     heietasin mõtteid siis.
@@ -4969,6 +4985,7 @@
 
 - title: Kaunimad aastad su elus
   artist: K. Süvalep
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Kaunimad_aastad_su_elus.opus"
   lyrics: |
     Kõik ootamatud kohtumised elus
     on nagu kiirelt mööduv kevadpäev.
@@ -5016,7 +5033,8 @@
 - title: Kõik roosid ma kingiksin sulle
   artist: 
     - A. Liives
-    - vil! B. Kõrver
+    - vil! Boris Kõrver
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/K%C3%B5ik_roosid_ma_kingiksin.opus"
   lyrics: |
     Kõik roosid ma kingiksin sulle
     ja õitega pärjaks su pea,
@@ -5279,7 +5297,7 @@
 - title: Külmal õhtul seisan vahipostil
   artist: 
     - G. Helbemäe
-    - vil! B. Kõrver
+    - vil! Boris Kõrver
   lyrics: |
     Külmal õhtul seisan vahipostil.
     Kõrgel taevas Põhjatäht.
@@ -5363,7 +5381,7 @@
 - title: Laulgem, poisid, praegu kõige kallimast
   artist: 
     - M. Kesamaa
-    - vil! B. Kõrver
+    - vil! Boris Kõrver
   lyrics: |
     Laulgem, poisid, praegu kõige kallimast 
     väiksest linnast, meie armsast Tallinnast.
@@ -7252,6 +7270,7 @@
   artist: 
     - A. Rennit
     - F. Saebelmann
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Mu_meelen_kuldne_kodukotus.opus"
   lyrics: |
     Mu meelen kuldne kodukotus,
     ma sageste näe und veel sest,
@@ -13351,6 +13370,7 @@
   artist: 
     - vil! Boris Kõrver
     - Ü. Järmut
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Kes_k%C3%A4inud_maal_on_saunas.opus"
   lyrics: |
     Kes käinud maal on saunas, sel saunalise paunas
     häid kaselõhnu kauaks meelde jääb.
@@ -13756,6 +13776,7 @@
 
 - title: Kartuliõis
   artist: Juhan Viiding
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/192c0175abb3794230d14b5ef810d61c7daecb97/Pojengip%C3%B5%C3%B5sa_%C3%A4%C3%A4rest.opus"
   lyrics: |
     Pojengipõõsa äärest
     telliskivid kadunud
