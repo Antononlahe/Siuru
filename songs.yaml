@@ -48,8 +48,9 @@
     mu kallis isamaa!
 
 
-- title: Leedu hümn
+- title: Leedu hümn / Lietuva, Tėvyne mūsų
   artist: Vincas Kudirka
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Leedu_h%C3%BCmn.opus"
   lyrics: |
     Lietuva, Tėvyne mūsų,
     Tu didvyrių žeme,
@@ -804,6 +805,7 @@
 
 - title: Ma olen liig halb
   artist: Raimond Valgre
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Ma_olen_liig_halb.opus"
   lyrics: |
     Eile terve tunni oot'sin asjatult ma sind,
     viimast korda näha lootsin, kuid ma pettusin.
@@ -2396,6 +2398,7 @@
   artist: 
     - H. Leip
     - N. Schulze
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Lili_Marleen.opus"
   lyrics: |
     Kasarmu ees väraval, öisel kõnniteel
     latern tookord säras, ta särab nüüdki veel.
@@ -3421,6 +3424,7 @@
 
 - title: Laul surnupealuust
   artist: H. Erma
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Kord_v%C3%B5itles_L%C3%B5una_Venemaal.opus"
   lyrics: |
     Kord võitles Lõuna-Venemaal,
     kaugel Doni steppides
@@ -5403,10 +5407,11 @@
     pärgi meil' tõotav paradiis.
   
 
-- title: Laulgem, poisid, praegu kõige kallimast
+- title: Laulgem poisid, praegu kõige kallimast
   artist: 
     - M. Kesamaa
     - vil! Boris Kõrver
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Laulgem_poisid_praegu_k%C3%B5ige_kallimast%20.opus"
   lyrics: |
     Laulgem, poisid, praegu kõige kallimast 
     väiksest linnast, meie armsast Tallinnast.
@@ -5437,10 +5442,11 @@
     neiu, ma ei jäta sind!
   
 
-- title: Laulge, poisid, laulge, peiud
+- title: Laulge poisid laulge peiud
   artist: 
     - Rahvalik
     - A. Thomson
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Laulge_poisid_laulge_peiud.opus"
   lyrics: |
     Laulge, poisid, laulge, peiud,
     laulge, naised, laulge, neiud!
@@ -5485,6 +5491,7 @@
   artist: 
     - J. Pert
     - V. Sommer
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Laul_waikind.opus"
   lyrics: |
     Laul vaikinud ja otsa on lõppenud viin,
     vait hulgun, und hõljutab tund 
@@ -5514,6 +5521,7 @@
 
 - title: Lehtedes kahin, salalik sahin
   artist: B. Alver
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Lehtedes_kahin_salalik_sahin.opus"
   lyrics: |
     Lehtedes kahin, salalik sahin,
     kevade mängul tulede hood.
@@ -5538,6 +5546,7 @@
 
 - title: Lenda, lenda, lepalind
   artist: Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Lenda_lenda_lepalind.opus"
   lyrics: |
     Lenda, lenda lepalind
     viimast korda veel palun sind!
@@ -5574,6 +5583,7 @@
   artist: 
     - J.A. Tanner
     - R. Janno
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Lossides_krahvidel_pulmad_on_hoos.opus"
   lyrics: |
     Lossides krahvidel pulmad on hoos,
     kus mõrsjal on kroonitud pää,
@@ -5648,6 +5658,7 @@
   artist: 
     - Heldur Karmo
     - A. Oit
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/L%C3%B5kkesuits_h%C3%B5%C3%B5gvel_s%C3%B6ed.opus"
   lyrics: |
     Lõkkesuits, hõõgvel söed.
     Hobu hommikust õhtuni käis.
@@ -5733,6 +5744,7 @@
 
 - title: Ma ammu tean üht neidu
   artist: K. Kikerpuu
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Ma_ammu_tean_%C3%BCht_neidu.opus"
   lyrics: |
     Ma ammu tean üht neidu,
     teist sellist vist ei leidu,
@@ -5759,6 +5771,7 @@
   artist: 
     - J. Viiding
     - P. Pedajas
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Ma_alles_noor_kuid.opus"
   lyrics: |
     Ma alles noor, kuid ühest teisest väsind,
     veel suurivaevu talun nüridust
@@ -5817,6 +5830,7 @@
   artist: 
     - H. Käo
     - Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Ma_ikka_tunnen_vahel.opus"
   lyrics: |
     Ma ikka tunnen vahel, et nähtamatu ahel
     on linna külge kinnitanud mind.
@@ -5861,6 +5875,7 @@
 
 - title: Ma istun keldris vilumas
   artist: E. Kook
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Ma_istun_keldris_vilumas.opus"
   lyrics: |
     Ma istun keldris vilumas,
     kus seismas vaat täis viina.
@@ -5976,6 +5991,7 @@
   artist: 
     - J. Pori
     - Wiga-Gabriel
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Ma_l%C3%B5bus_%C3%B5llepruulija.opus"
   lyrics: |
     Ma lõbus õllepruulija, hõissa ja hõissa!
     Ma pruulin õlut lauluga, hõissa ja hõissa!
@@ -5990,6 +6006,7 @@
 
 - title: Ma lätsi läbi Tsergo külä
   artist: 
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Ma_l%C3%A4tsi_l%C3%A4bi_Tsergo_k%C3%BCl%C3%A4.opus"
   lyrics: |
     :,: Ma lätsi läbi Tsergo külä
     kats pool versta edasi. :,:
@@ -6168,6 +6185,7 @@
   artist: 
     - H. Koff
     - Rahvalik
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Ma_tahaksin_kodus_olla.opus"
   lyrics: |
     Ma tahaksin kodus olla,
     kui õunapuud õitsevad
@@ -6245,7 +6263,7 @@
 
 - title: Ma vaatan paadist kiikriga
   artist: Rahvalik
-  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/f74f4420c0172653c0868e5c1b88fd534278692c/Ma_vaatan_paadist_kiikriga.opus"
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Ma_vaatan_paadist_kiikriga.opus"
   lyrics: |
     :,: Ma vaatan paadist kiikriga,
     kui kaugel on see Saaremaa. :,:
@@ -6282,6 +6300,7 @@
   artist: 
     - Heldur Karmo 
     - B. Martin
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Ma_%C3%B5nnesoove_saan_h%C3%A4id_ja_sooje.opus"
   lyrics: |
     Ma õnnesoove saan häid ja sooje,
     kui räägin kõigile, et armastad sa mind!
@@ -7176,6 +7195,7 @@
   artist: 
     - J. Saar
     - U. Naissoo
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Mu_kodu_ei_piira.opus"
   lyrics: |
     Mu kodu ei piira need metsikud mäed,
     mis kõrguvad pilvede alla.
@@ -12718,6 +12738,7 @@
   artist: 
     - L. Koidula
     - F. Saebelmann
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/%C3%9Cks_paigake_siin_ilmas_on.opus"
   lyrics: |
     Üks paigake siin ilmas on,
     kus varjul truudus, arm ja õnn;
@@ -13259,6 +13280,7 @@
 
 - title:  Lagendikul põõsa vilus 
   artist:
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Lagendikul_p%C3%B5%C3%B5sa_vilus.opus"
   lyrics: |
     Lagendikul põõsa vilus
     Eesti sõdur lamab maas
@@ -13661,6 +13683,7 @@
 
 - title: Mina olen mittekeegi / Vennaskonna hümn
   artist: Vennaskond
+  path: "https://github.com/Antononlahe/LaulikuLaulud/raw/edee9a633ba4c48df5cbe27e3c58c27af4f02393/Vennaskonna_h%C3%BCmn.opus"
   lyrics: |
     Mina olen mittekeegi
     Ma ei ole mingi mees
