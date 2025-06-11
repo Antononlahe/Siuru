@@ -234,15 +234,35 @@ document.getElementById('back-button').onclick = () => {
 };
 
 window.addEventListener('popstate', function(event) {
-    if (window.innerWidth < 768 && !document.getElementById('lyrics-display').style.display) {
-        // Assuming you want to restore scroll only when not in lyrics view
-        document.body.classList.remove('lyrics-view');
-        window.scrollTo({
-            top: lastScrollPosition,
-            behavior: 'smooth'
-        });
+    if (window.innerWidth < 768) {
+        if (document.getElementById('lyrics-display').style.display === 'block' || 
+            document.body.classList.contains('lyrics-view')) {
+            document.body.classList.remove('lyrics-view');
+            document.getElementById('lyrics-display').style.display = 'none';
+            document.getElementById('song-list').style.display = 'block';
+            document.getElementById('back-button').style.display = 'none';
+            document.getElementById('search-input-container').classList.remove('hide-search');
+            
+            setTimeout(() => {
+                window.scrollTo({
+                    top: lastScrollPosition,
+                    behavior: 'smooth'
+                });
+            }, 0);
+            
+            if (currentPlayingSong) {
+                currentPlayingSong.audioPlayer.pause();
+                currentPlayingSong = null;
+            }
+        } else {
+            window.scrollTo({
+                top: lastScrollPosition,
+                behavior: 'smooth'
+            });
+        }
     }
-    handleUrlParams(); // This will handle the URL parameters as before
+    
+    handleUrlParams();
 });
 
 function performSearch() {
@@ -374,6 +394,3 @@ window.addEventListener('resize', () => {
 
 // Initialize back button visibility
 document.getElementById('back-button').style.display = 'none';
-
-// Add event listener for popstate to handle browser back/forward navigation
-window.addEventListener('popstate', handleUrlParams);
