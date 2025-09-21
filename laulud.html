@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+        fetch('songs.yaml')
+            .then(r=>r.text())
+            .then(t=>{
+                const songs=[];
+                t.split('- title:').slice(1)
+                .forEach(s=>{
+                    const title=s.split('\n')[0].trim();
+                    if (title) {
+                        songs.push(title)};
+                    }
+                );
+                document.body.innerHTML='<pre>'+JSON.stringify(songs,null,2)+'</pre>';
+                }
+            );
+        </script>
+    </body>
+</html>
