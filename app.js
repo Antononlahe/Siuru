@@ -81,7 +81,7 @@ async function displayLyrics(song) {
         lastScrollPosition = window.scrollY;
         if (document.startViewTransition) {
             await document.startViewTransition(async () => {
-                document.body.classList.add('lyrics-view'); 
+                document.body.classList.add('lyrics-view');
                 document.getElementById('song-list').style.display = 'none';
                 document.getElementById('lyrics-display').style.display = 'block';
                 document.getElementById('back-button').style.display = 'block';
@@ -100,6 +100,13 @@ async function displayLyrics(song) {
         }
     } else {
         updateLyricsContent(song);
+        // Scroll to the selected song in desktop mode
+        setTimeout(() => {
+            const selectedItem = document.querySelector('#songs li.selected');
+            if (selectedItem) {
+                selectedItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }, 0);
     }
 
     // Update URL with song title
@@ -190,29 +197,36 @@ function updateLyricsContent(song) {
 async function searchByArtist(artist) {
     document.getElementById('search-bar').value = `a:${artist}`;
     performSearch();
-    
+
     if (window.innerWidth < 768) {
         if (document.startViewTransition) {
             await document.startViewTransition(async () => {
+                document.body.classList.remove('lyrics-view');
                 document.getElementById('lyrics-display').style.display = 'none';
                 document.getElementById('song-list').style.display = 'block';
                 document.getElementById('back-button').style.display = 'none';
+                document.getElementById('search-input-container').classList.remove('hide-search');
             }).finished;
         } else {
+            document.body.classList.remove('lyrics-view');
             document.getElementById('lyrics-display').style.display = 'none';
             document.getElementById('song-list').style.display = 'block';
             document.getElementById('back-button').style.display = 'none';
+            document.getElementById('search-input-container').classList.remove('hide-search');
         }
     }
 }
 
 document.getElementById('back-button').onclick = () => {
     if (window.innerWidth < 768) {
-        document.body.classList.remove('lyrics-view'); // Add this line
+        document.body.classList.remove('lyrics-view');
         document.getElementById('lyrics-display').style.display = 'none';
         document.getElementById('song-list').style.display = 'block';
         document.getElementById('back-button').style.display = 'none';
         document.getElementById('search-input-container').classList.remove('hide-search');
+
+        // Restore search results if there's a search term
+        performSearch();
 
         // Restore the saved scroll position
         setTimeout(() => {
@@ -220,7 +234,7 @@ document.getElementById('back-button').onclick = () => {
                 top: lastScrollPosition,
                 behavior: 'smooth'
             });
-        }, 0); // Use setTimeout to ensure the DOM has updated before scrolling
+        }, 0);
     }
     // Remove song parameter from URL
     const url = new URL(window.location);
@@ -228,8 +242,8 @@ document.getElementById('back-button').onclick = () => {
     window.history.pushState({}, '', url);
 
     if (currentPlayingSong) {
-        currentPlayingSong.audioPlayer.pause(); 
-        currentPlayingSong = null; // Clear currentPlayingSong on back button click
+        currentPlayingSong.audioPlayer.pause();
+        currentPlayingSong = null;
     }
 };
 
