@@ -4575,30 +4575,33 @@
     - Salmi rahvaviis
   path: "https://github.com/Antononlahe/LaulikuLaulud/raw/616f6cdea4e55c4e32db10795865bb329631b2af/Kuldne_%C3%B5htup%C3%A4ike.opus"
   lyrics: |
-    Kuldne õhtupäike, ilus oled saa,
-    :,: kui sa viimse läike saadad üle maa! :,:
-    
-      Hoia kinni, muidu võid sa uppi lennata,
-      minust kinni hoia sa, ha-ha-haa.
-      Siis võid kartmata mäest alla lennata,
-      üheskoos, täies hoos, minuga, vallera!
+      Kuldne õhtupäike, ilus oled sa,
+      :,: Kui sa viimse läike saadad üle maa! :,:
 
-      :,: Ai Maam, ai maam, see poiss on jälle siin,
-      kes mulle suhkrusaia tõi ja ise ära sõi. :,:
-      :,: Ai trika-trika-trika-trika trallalallallaa,
-      mu simmikingad kontsata ja taldu pole all. :,:
-      :,: Ei vabariigi sõdurit ei leina neiu rind,
-      vaid teda leinab ainult meie vabariigi pind. :,:
-      :,: Käi välja, välja vabariigi seest,
-      kes joovad Eesti viina ja ei räägi eesti keelt! :,: 
+        Hoia kinni, muidu võid sa uppi lennata,
+        minust kinni hoia sa, ha-ha-haa.
+        Siis võid kartmata mäest alla lennata,
+        üheskoos, täies hoos, minuga, vallera!
 
-    Rõõmsaks muudad meele, kui sind näen ma!
-    Laulma paned keele õhtu ehaga.
-    
-    Une rüppe heidad, päike, puhkama.
-    Hommikul meil' koidad uue iluga!
-  
-  
+        :,: Ai mam', ai mam', see poiss on jälle siin,
+        kes mulle suhkrusaia tõi ja ise ära sõi. :,:
+        
+        :,: Ai trika-trika-trika-trika trallalallallaa,
+        mul simmikingad kontsata ja taldu pole all. :,:
+        
+        :,: Käi välja, välja Vabariigi seest,
+        kes joovad Eesti viina ja ei räägi eesti keelt! :,:
+        
+        :,: Vabariigi sõdurit ei leina neiu rind,
+        vaid teda leinab ainult meie vabariigi pind. :,:
+
+      Rõõmsaks muudad meele, kui sind näen ma!
+      :,: Laulma paned keele, õhtu ehaga. :,:
+
+      Une rüppe heidad, päike, puhkama!
+      :,: Hommikul meil' koidad uue iluga! :,:
+
+
 - title: Kuldrannake kuldrannake
   artist: 
     - A. Reinvald
@@ -14005,10 +14008,50 @@
     Jaa-jaa-jah, kõll! Ees sädemeist põlenud põll,
     jaa-jaa-jaa, oi-oi-oi! Tööpõld on lai.
 
-- title: 
+- title: Vilistlaslaul
   artist: 
+    - sv! Ihermann
+    - sv! Konnula
   lyrics: |
+    Vaid õlled ja vorstid ja tuhm silmapilt
+    ja kuskil seal vahel su lurisev piip.
+    Su tee algab kodust ja lõpeb kus kaev
+    sa iga päev ühte ja sama vaid näed!
 
+      Vilistlane, vilistlane, mis elu see on?
+      Meil konvendis pidu, sul kodus on tolm.
+      Miks tundub, et kannaks me sinu ees süüd
+      ;,; ja sinu auks vilistlane, me võtame nüüd ;,;
+    
+    Kord olid sa rebane lootusi täis
+    ja korpide värvidest pea ringi käis.
+    Nüüd näed, et su palgaks on suur liikmemaks
+    ja teistele kanda jääb euro või kaks.
+
+      Vilistlane, vilistlane, mis elu see on?
+      Meil konvendis pidu, sul kodus on tolm.
+      Miks tundub, et kannaks me sinu ees süüd
+      ;,; ja sinu auks vilistlane, me võtame nüüd ;,;
+    
+    Su ainsamaks mõtteks on õllelaud, vend!
+    Kui konvendist koju viis äratuskell.
+    Jäi uksele saatma sind concoeter noor,
+    kes ütles, sa oled veits üle vist joond!
+
+      Vilistlane, vilistlane, mis elu see on?
+      Meil konvendis pidu, sul kodus on tolm.
+      Miks tundub, et kannaks me sinu ees süüd
+      ;,; ja sinu auks vilistlane, me võtame nüüd ;,;
+    
+    Su magu on tühi kui rebase pea
+    sest rebane ammugi sind ju ei tea!
+    Kuid silmades tuli, mis kadedaks teeb
+    kui jõuad sa taas meie konvendisse!
+
+      Vilistlane, vilistlane, mis elu see on?
+      Meil konvendis pidu, sul kodus on tolm.
+      Miks tundub, et kannaks me sinu ees süüd
+      ;,; ja sinu auks vilistlane, me võtame nüüd ;,;
 
 
 - title: Leidsin pähkli
