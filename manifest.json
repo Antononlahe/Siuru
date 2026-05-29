@@ -11,10 +11,10 @@
   "theme_color": "#2c2640",
   "icons": [
     {
-      "src": "icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "src": "https://media.voog.com/0000/0000/0088/photos/800x720_formaadis_laulik.png",
+      "sizes": "800x720",
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
