@@ -28,10 +28,7 @@ function highlightTitle(title, foldedTerm) {
 
 async function loadSongs() {
     try {
-        const response = await fetch('songs.yaml');
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const yamlText = await response.text();
-        songs = jsyaml.load(yamlText);
+        songs = await fetchSongs();
         songs.sort((a, b) => (a?.title || '\uffff').localeCompare(b?.title || '\uffff'));
         displaySongs(songs);
         handleUrlParams();
@@ -41,6 +38,34 @@ async function loadSongs() {
         songList.innerHTML =
             '<li class="load-error">Laulude laadimine eba\u00f5nnestus. Kontrolli interneti\u00fchendust ja proovi uuesti.</li>';
     }
+}
+
+// Production serves a pre-built songs.json (native JSON.parse, no extra
+// library). Local dev (plain static server, no build step) has only
+// songs.yaml, so fall back to parsing it with js-yaml loaded on demand.
+async function fetchSongs() {
+    const jsonRes = await fetch('songs.json');
+    if (jsonRes.ok) {
+        return await jsonRes.json();
+    }
+    const yamlRes = await fetch('songs.yaml');
+    if (!yamlRes.ok) throw new Error(`HTTP ${yamlRes.status}`);
+    const yamlText = await yamlRes.text();
+    const yaml = await loadJsYaml();
+    return yaml.load(yamlText);
+}
+
+// Inject js-yaml from the CDN only when the YAML fallback is actually needed,
+// so production (songs.json) never loads it.
+function loadJsYaml() {
+    if (window.jsyaml) return Promise.resolve(window.jsyaml);
+    return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js';
+        script.onload = () => resolve(window.jsyaml);
+        script.onerror = () => reject(new Error('Failed to load js-yaml'));
+        document.head.appendChild(script);
+    });
 }
 
 function getFirstFourWords(text) {
