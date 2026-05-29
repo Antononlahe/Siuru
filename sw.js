@@ -5,7 +5,7 @@
 // immediately (fast, offline-capable) while a fresh copy is fetched in the
 // background for next time. Bump CACHE_VERSION to force clients onto new
 // shell assets.
-const CACHE_VERSION = 'vironia-v3';
+const CACHE_VERSION = 'vironia-v4';
 
 const PRECACHE_URLS = [
   './',
@@ -13,10 +13,9 @@ const PRECACHE_URLS = [
   './app.js',
   './styles.css',
   './manifest.json',
+  './laulik.png',
   './songs.json'
 ];
-// The app icon is a cross-origin PNG (media.voog.com); it can't be precached
-// (opaque response), so the runtime fetch handler caches it on first load.
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
