@@ -252,6 +252,8 @@ function setupAudioPlayer(song) {
 }
 
 function updateLyricsContent(song) {
+    // Reveals the lyrics pane and hides the desktop "pick a song" placeholder.
+    document.body.classList.add('has-song');
     document.getElementById('song-title').textContent = song.title;
     const artistElement = document.getElementById('song-artist');
     artistElement.innerHTML = '';
@@ -378,6 +380,7 @@ function performSearch() {
     }
 
     console.log('Search term:', searchTerm, 'Results:', filteredSongs.length);
+    document.getElementById('clear-search').classList.toggle('visible', searchTerm.length > 0);
     displaySongs(filteredSongs);
 
     // replaceState (not pushState) so typing doesn't flood the history stack
