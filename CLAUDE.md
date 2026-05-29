@@ -26,7 +26,7 @@ In dev, `app.js` loads the song data straight from `songs.yaml`, lazily pulling 
 - **`app.js`** — all application logic (no framework, global `songs` array). On load `fetchSongs()` tries `songs.json` (production) and falls back to `songs.yaml` (dev); it then sorts by title with `localeCompare`, renders the list, and applies any URL params. Also registers the service worker.
 - **`styles.css`** — styling, including dark/light mode and responsive layout.
 - **`songs.yaml`** — the entire song database (the "backend") and the source of truth. Editing this file is how content is added or changed.
-- **`sw.js` / `manifest.json`** — PWA layer: installable app, offline support via a stale-while-revalidate service worker that precaches the app shell and `songs.json`. Bump `CACHE_VERSION` in `sw.js` when shell assets change. The app icon is referenced as a cross-origin PNG on `media.voog.com` (not a repo file), so it's cached at runtime rather than precached. Note service workers only run over HTTPS or `localhost` (not `file://`).
+- **`sw.js` / `manifest.json` / `laulik.png`** — PWA layer: installable app with the `laulik.png` icon, plus offline support via a stale-while-revalidate service worker that precaches the app shell, icon, and `songs.json`. Bump `CACHE_VERSION` in `sw.js` when shell assets change. Note service workers only run over HTTPS or `localhost` (not `file://`).
 - **`laulud.html`** — a standalone debug page that lists every song title by string-parsing `songs.yaml`.
 
 ### Search internals
