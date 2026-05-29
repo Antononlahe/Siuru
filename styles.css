@@ -67,11 +67,6 @@
       color: var(--text-color);
     }
 
-    /* Highlight the font toggle while the readable font is active */
-    body.readable-font #font-toggle {
-      background-color: var(--checkbox-checked-bg);
-    }
-
     * {
       box-sizing: border-box;
       margin: 0;
