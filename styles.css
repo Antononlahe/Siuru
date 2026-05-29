@@ -301,18 +301,21 @@
     }
 
     #lyrics-controls button {
-      background-color: var(--highlight-color);
+      background-color: transparent;
       color: var(--text-color);
-      border: none;
+      opacity: 0.55;
+      border: 1px solid var(--checkbox-bg);
       border-radius: 5px;
       padding: 0.25rem 0.6rem;
       cursor: pointer;
       font-weight: bold;
       line-height: 1;
+      transition: opacity 0.2s ease, background-color 0.2s ease;
     }
 
     #lyrics-controls button:hover {
-      background-color: var(--checkbox-checked-bg);
+      opacity: 1;
+      background-color: var(--checkbox-bg);
     }
 
     /* Desktop empty state */

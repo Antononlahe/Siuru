@@ -466,7 +466,7 @@ function updateModeIcon(isLightMode) {
 
 // Lyrics font size: persisted in localStorage, applied to the <pre>. Useful
 // when singing off a phone held at arm's length.
-const MIN_FONT = 0.7, MAX_FONT = 2.0, FONT_STEP = 0.15, DEFAULT_FONT = 0.9;
+const MIN_FONT = 0.7, MAX_FONT = 2.75, FONT_STEP = 0.15, DEFAULT_FONT = 0.9;
 
 function applyLyricsFontSize(size) {
     const clamped = Math.min(MAX_FONT, Math.max(MIN_FONT, size));
