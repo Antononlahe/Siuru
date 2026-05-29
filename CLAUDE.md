@@ -55,3 +55,4 @@ Each entry is a YAML list item:
 - **Responsive split-view**: below 768px the app switches between a list view and a full-screen lyrics view with a back button and View Transitions API animation; at ≥768px both panes show side by side. Resize handling lives in the `resize` listener at the bottom of `app.js`.
 - **URL state**: the current song (`?song=`) and search term (`?search=`) are pushed to the URL via `history.pushState`, and restored on load / `popstate` by `handleUrlParams`. Deep links to a specific song work this way.
 - **Dark/light mode**: toggled via the `light-mode` body class and persisted in `localStorage` under the `mode` key.
+- **Readable font toggle**: a header button (serif "A" glyph) toggles the `readable-font` body class, which swaps the lyrics from the default monospace `<pre>` to a proportional font; persisted in `localStorage` under the `font` key.

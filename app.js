@@ -486,6 +486,19 @@ function initializeFontSize() {
     };
 }
 
+// Optional "more readable" lyrics font, toggled from the header and persisted.
+// Default is the original look; this swaps the lyrics to a proportional font.
+function initializeFontToggle() {
+    const fontToggle = document.getElementById('font-toggle');
+    if (localStorage.getItem('font') === 'readable') {
+        document.body.classList.add('readable-font');
+    }
+    fontToggle.addEventListener('click', () => {
+        const readable = document.body.classList.toggle('readable-font');
+        localStorage.setItem('font', readable ? 'readable' : 'default');
+    });
+}
+
 function registerServiceWorker() {
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
@@ -498,6 +511,7 @@ function registerServiceWorker() {
 loadSongs();
 initializeModeToggle();
 initializeFontSize();
+initializeFontToggle();
 registerServiceWorker();
 
 // Add this event listener to handle window resizing
