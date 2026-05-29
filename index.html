@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vironia Lauluraamat</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.svg">
+    <meta name="theme-color" content="#2c2640">
 </head>
 <body>
     <header>
@@ -49,11 +53,16 @@
       </div>
     <div id="content">
         <div id="song-list">
+            <div id="result-count" style="display:none"></div>
             <ul id="songs"></ul>
         </div>
         <div id="lyrics-display">
             <h2 id="song-title"></h2>
             <h3 id="song-artist"></h3>
+            <div id="lyrics-controls">
+              <button id="font-decrease" aria-label="Vähenda teksti" title="Vähenda teksti">A−</button>
+              <button id="font-increase" aria-label="Suurenda teksti" title="Suurenda teksti">A+</button>
+            </div>
             <pre id="song-lyrics"></pre>
             <div id="audio-player-container">
               <button id="play-audio-btn" class="play-button" style="display:none">

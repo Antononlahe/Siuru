@@ -1,16 +1,45 @@
 let songs = [];
-let currentPlayingSong = null; 
+let currentPlayingSong = null;
+
+// Accent-insensitive folding so e.g. "ohtu" matches "\u00f5htu". The map is
+// length-preserving (one char in, one char out), which lets us reuse the
+// folded indices to highlight matches in the original (accented) text.
+const FOLD_MAP = { '\u00f5': 'o', '\u00e4': 'a', '\u00f6': 'o', '\u00fc': 'u', '\u0161': 's', '\u017e': 'z' };
+function fold(str) {
+    return (str || '').toLowerCase().replace(/[\u00f5\u00e4\u00f6\u00fc\u0161\u017e]/g, c => FOLD_MAP[c]);
+}
+
+function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+}
+
+// Wrap the part of `title` that matches `foldedTerm` in <mark>. Returns HTML.
+function highlightTitle(title, foldedTerm) {
+    if (!foldedTerm) return escapeHtml(title);
+    const idx = fold(title).indexOf(foldedTerm);
+    if (idx === -1) return escapeHtml(title);
+    const before = escapeHtml(title.slice(0, idx));
+    const match = escapeHtml(title.slice(idx, idx + foldedTerm.length));
+    const after = escapeHtml(title.slice(idx + foldedTerm.length));
+    return `${before}<mark>${match}</mark>${after}`;
+}
 
 async function loadSongs() {
     try {
         const response = await fetch('songs.yaml');
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const yamlText = await response.text();
         songs = jsyaml.load(yamlText);
-        songs.sort((a, b) => (a?.title || '\uffff').localeCompare(b?.title || '\uffff'));        
+        songs.sort((a, b) => (a?.title || '\uffff').localeCompare(b?.title || '\uffff'));
         displaySongs(songs);
         handleUrlParams();
     } catch (error) {
         console.error('Error loading songs:', error);
+        const songList = document.getElementById('songs');
+        songList.innerHTML =
+            '<li class="load-error">Laulude laadimine eba\u00f5nnestus. Kontrolli interneti\u00fchendust ja proovi uuesti.</li>';
     }
 }
 
@@ -18,18 +47,37 @@ function getFirstFourWords(text) {
     return text.split(/\s+/).slice(0, 4).join(' ');
 }
 
+// Show the result count only while a search is active.
+function updateResultCount(count) {
+    const el = document.getElementById('result-count');
+    if (!el) return;
+    const term = document.getElementById('search-bar').value.trim();
+    if (!term) {
+        el.style.display = 'none';
+        return;
+    }
+    el.style.display = 'block';
+    el.textContent = count === 1 ? '1 tulemus' : `${count} tulemust`;
+}
+
 function displaySongs(songsToDisplay) {
     const songList = document.getElementById('songs');
-    songList.innerHTML = '';
+
+    // Highlight whatever the user is currently searching for (artist-only
+    // `a:` searches don't match titles, so skip highlighting in that case).
+    const rawTerm = document.getElementById('search-bar').value.trim();
+    const highlightTerm = rawTerm.startsWith('a:') ? '' : fold(rawTerm);
+
+    const fragment = document.createDocumentFragment();
     songsToDisplay.forEach(song => {
         const li = document.createElement('li');
-        
+
         const title = document.createElement('span');
-        title.textContent = song.title;
+        title.innerHTML = highlightTitle(song.title, highlightTerm);
 
         ////////////////////////////////
         if (song.path) {
-            title.textContent += ' 🎵'; // Append the musical note emoji
+            title.append(' 🎵'); // Append the musical note emoji
         }
         ////////////////////////////////
 
@@ -69,8 +117,10 @@ function displaySongs(songsToDisplay) {
         }
         
         li.onclick = () => displayLyrics(song);
-        songList.appendChild(li);
+        fragment.appendChild(li);
     });
+    songList.replaceChildren(fragment);
+    updateResultCount(songsToDisplay.length);
     console.log('Displayed songs:', songsToDisplay.length);
 }
 
@@ -153,14 +203,15 @@ function setupAudioPlayer(song) {
             
             audioPlayer.src = audioPath;
             audioPlayer.style.display = 'block';
-            
-            // Add event listeners for better debugging
-            audioPlayer.addEventListener('loadstart', () => console.log('Audio loading started'));
-            audioPlayer.addEventListener('loadeddata', () => console.log('Audio data loaded'));
-            audioPlayer.addEventListener('error', (e) => {
+
+            // Assign as properties (not addEventListener) so repeated plays
+            // overwrite the handlers instead of stacking duplicates.
+            audioPlayer.onloadstart = () => console.log('Audio loading started');
+            audioPlayer.onloadeddata = () => console.log('Audio data loaded');
+            audioPlayer.onerror = () => {
                 console.error('Audio error:', audioPlayer.error);
                 alert(`Audio error: ${audioPlayer.error.message}`);
-            });
+            };
 
             audioPlayer.play().then(() => {
                 console.log('Audio playing successfully');
@@ -285,17 +336,18 @@ function performSearch() {
 
     let filteredSongs;
     if (searchTerm.startsWith('a:')) {
-        const artistSearchTerm = searchTerm.slice(2).trim();
+        const artistSearchTerm = fold(searchTerm.slice(2).trim());
         filteredSongs = songs.filter(song => {
             const artistList = Array.isArray(song.artist) ? song.artist : [song.artist];
-            return artistList.some(artist => artist && artist.toLowerCase().includes(artistSearchTerm));
+            return artistList.some(artist => artist && fold(artist).includes(artistSearchTerm));
         });
     } else {
+        const foldedTerm = fold(searchTerm);
         filteredSongs = songs.filter(song => {
             const artistList = Array.isArray(song.artist) ? song.artist : [song.artist];
-            const titleMatch = song.title && song.title.toLowerCase().includes(searchTerm);
-            const artistMatch = artistList.some(artist => artist && artist.toLowerCase().includes(searchTerm));
-            const lyricsMatch = searchLyrics && song.lyrics && song.lyrics.toLowerCase().includes(searchTerm);
+            const titleMatch = song.title && fold(song.title).includes(foldedTerm);
+            const artistMatch = artistList.some(artist => artist && fold(artist).includes(foldedTerm));
+            const lyricsMatch = searchLyrics && song.lyrics && fold(song.lyrics).includes(foldedTerm);
             return titleMatch || artistMatch || lyricsMatch;
         });
     }
@@ -303,9 +355,11 @@ function performSearch() {
     console.log('Search term:', searchTerm, 'Results:', filteredSongs.length);
     displaySongs(filteredSongs);
 
+    // replaceState (not pushState) so typing doesn't flood the history stack
+    // with one entry per keystroke.
     const url = new URL(window.location.href);
     url.searchParams.set('search', encodeURIComponent(searchTerm));
-    window.history.pushState({}, '', url);
+    window.history.replaceState({}, '', url);
 }
 
 document.getElementById('search-bar').oninput = performSearch;
@@ -317,7 +371,7 @@ document.getElementById('clear-search').onclick = () => {
     // Remove search parameter from URL
     const url = new URL(window.location);
     url.searchParams.delete('search');
-    window.history.pushState({}, '', url);
+    window.history.replaceState({}, '', url);
 };
 
 function handleUrlParams() {
@@ -382,8 +436,41 @@ function updateModeIcon(isLightMode) {
     }
 }
 
+// Lyrics font size: persisted in localStorage, applied to the <pre>. Useful
+// when singing off a phone held at arm's length.
+const MIN_FONT = 0.7, MAX_FONT = 2.0, FONT_STEP = 0.15, DEFAULT_FONT = 0.9;
+
+function applyLyricsFontSize(size) {
+    const clamped = Math.min(MAX_FONT, Math.max(MIN_FONT, size));
+    document.getElementById('song-lyrics').style.fontSize = `${clamped}rem`;
+    localStorage.setItem('lyricsFontSize', clamped);
+    return clamped;
+}
+
+function initializeFontSize() {
+    let size = parseFloat(localStorage.getItem('lyricsFontSize')) || DEFAULT_FONT;
+    applyLyricsFontSize(size);
+    document.getElementById('font-decrease').onclick = () => {
+        size = applyLyricsFontSize(size - FONT_STEP);
+    };
+    document.getElementById('font-increase').onclick = () => {
+        size = applyLyricsFontSize(size + FONT_STEP);
+    };
+}
+
+function registerServiceWorker() {
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('sw.js').catch(err =>
+                console.error('Service worker registration failed:', err));
+        });
+    }
+}
+
 loadSongs();
 initializeModeToggle();
+initializeFontSize();
+registerServiceWorker();
 
 // Add this event listener to handle window resizing
 window.addEventListener('resize', () => {
