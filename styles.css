@@ -371,3 +371,47 @@
   background-color: #291551;
 }
 
+  /* Highlighted search match in song titles */
+  #songs li .title mark {
+    background-color: var(--highlight-color);
+    color: var(--text-color);
+    border-radius: 3px;
+    padding: 0 1px;
+  }
+
+  /* Result count shown above the list while searching */
+  #result-count {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    padding: 0 0.2rem 0.4rem;
+  }
+
+  /* Load failure message */
+  #songs li.load-error {
+    cursor: default;
+    text-align: center;
+    opacity: 0.8;
+  }
+
+  /* Lyrics font-size controls */
+  #lyrics-controls {
+    display: flex;
+    gap: 0.4rem;
+    margin-bottom: 0.6rem;
+  }
+
+  #lyrics-controls button {
+    background-color: var(--highlight-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    padding: 0.25rem 0.6rem;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  #lyrics-controls button:hover {
+    background-color: var(--checkbox-checked-bg);
+  }
+

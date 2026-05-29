@@ -1,0 +1,20 @@
+{
+  "name": "Vironia lauluraamat",
+  "short_name": "Lauluraamat",
+  "description": "Korp! Vironia lauluraamat – otsi laule, vaata sõnu ja kuula salvestusi.",
+  "lang": "et",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#2c2640",
+  "theme_color": "#2c2640",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
