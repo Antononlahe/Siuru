@@ -5,6 +5,8 @@
       --secondary-bg: #000000;
       --checkbox-bg: #4a4262;
       --checkbox-checked-bg: #7e57c2;
+      /* Opt-in "more readable" lyrics font (toggled in the header) */
+      --font-readable: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     }
 
 
@@ -21,7 +23,13 @@
       display: flex;
       align-items: center;
     }
-    
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
     .mode-toggle {
       background: none;
       color: var(--text-color);
@@ -30,13 +38,14 @@
       border-radius: 5px;
       cursor: pointer;
       transition: background-color 0.3s ease;
-      height: 8vh;
-      width: 8vh;
+      height: 2.75rem;
+      width: 2.75rem;
       display: flex;
       align-items: center;
       justify-content: center;
+      flex: none;
     }
-    
+
     .mode-toggle:hover {
       background-color: var(--checkbox-checked-bg);
     }
@@ -47,17 +56,28 @@
       color: var(--text-color);
       transition: transform 0.3s ease;
     }
-    
+
     .light-mode .mode-icon {
       transform: rotate(180deg);
     }
-    
+
+    .font-icon {
+      height: 100%;
+      width: 100%;
+      color: var(--text-color);
+    }
+
+    /* Highlight the font toggle while the readable font is active */
+    body.readable-font #font-toggle {
+      background-color: var(--checkbox-checked-bg);
+    }
+
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
-    
+
     body {
       font-family: Arial, sans-serif;
       background-color: var(--bg-color);
@@ -67,117 +87,138 @@
       display: flex;
       flex-direction: column;
     }
-    
+
+    :focus-visible {
+      outline: 2px solid var(--highlight-color);
+      outline-offset: 2px;
+    }
+
     header {
       background-color: var(--secondary-bg);
-      padding: 1rem;
+      padding: 0.6rem 1rem;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      height: 10vh;
+      min-height: 3.75rem;
     }
-    
+
     .logo {
-      height: 8vh;
+      height: 2.6rem;
       width: auto;
       margin-right: 1rem;
       object-fit: contain;
   }
-    
+
     .app-name {
       font-size: 1.5rem;
       font-weight: bold;
     }
-    
+
     #search-container {
       position: sticky;
       top: 0;
       background-color: var(--bg-color);
       padding: 0.5rem;
       z-index: 10;
-      height: 6vh;
     }
-    
+
     #search-input-container {
       display: flex;
       align-items: center;
       gap: 0.5rem;
-      height: 100%;
       min-width: 0;
     }
 
-    #search-input-container.hide-search {
+    .search-field {
+      position: relative;
+      flex: 1;
+      min-width: 0;
       display: flex;
-      justify-content: flex-end;
     }
 
-    #search-input-container.hide-search input,
-    #search-input-container.hide-search #clear-search,
-    #search-input-container.hide-search .checkbox-container {
-        display: none;
-    }
-
-    #search-input-container.hide-search #back-button {
-        margin-right: 0;
-    }
-
-    body.lyrics-view #search-input-container {
-      background-color: transparent;
-    }
-
-    body.lyrics-view #search-input-container #search-bar,
-    body.lyrics-view #search-input-container #clear-search {
-        background-color: transparent;
-    }
-
-    body.lyrics-view #search-input-container .checkbox-container {
-        display: none; /* Since you already hide this in hide-search */
-    }
-  
-
-    
     #search-bar {
       flex: 1;
       min-width: 0;
-      padding: 0.5rem;
+      padding: 0.5rem 2.2rem 0.5rem 0.5rem;
       border: none;
-      border-radius: 5px 0 0 5px;
+      border-radius: 5px;
       background-color: var(--secondary-bg);
       color: var(--text-color);
     }
-    
-    #clear-search, #back-button {
-      padding: 0.5rem;
+
+    /* Clear (✕) sits inside the field and only shows when there's text */
+    #clear-search {
+      position: absolute;
+      right: 0.4rem;
+      top: 50%;
+      transform: translateY(-50%);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 1.5rem;
+      height: 1.5rem;
+      padding: 0;
       border: none;
-      border-radius: 0 5px 5px 0;
+      border-radius: 50%;
+      background-color: var(--checkbox-bg);
+      color: var(--text-color);
+      cursor: pointer;
+      font-size: 0.8rem;
+      line-height: 1;
+    }
+
+    #clear-search.visible {
+      display: flex;
+    }
+
+    #clear-search:hover {
+      background-color: var(--highlight-color);
+    }
+
+    #back-button {
+      display: none;
+      padding: 0.4rem 0.8rem;
+      border: none;
+      border-radius: 5px;
       background-color: var(--highlight-color);
       color: var(--text-color);
       cursor: pointer;
       white-space: nowrap;
-    }
-    
-    #back-button {
-      padding: 0.4rem 0.8rem;
-      border-radius: 5px;
       font-size: 0.9rem;
       user-select: none;
     }
-    
+
+    /* In the mobile lyrics view, hide search controls; back button on the right */
+    #search-input-container.hide-search {
+      justify-content: flex-end;
+    }
+
+    #search-input-container.hide-search .search-field,
+    #search-input-container.hide-search .checkbox-container {
+      display: none;
+    }
+
       #content {
           flex: 1;
           overflow-y: auto;
       }
-    
+
     #song-list, #lyrics-display {
       height: 100%;
       padding: 0.5rem;
     }
-    
+
     #songs {
       list-style-type: none;
       padding: 0;
     }
-    
+
+    #result-count {
+      font-size: 0.8rem;
+      opacity: 0.7;
+      padding: 0 0.2rem 0.4rem;
+    }
+
     #songs li {
       background-color: var(--secondary-bg);
       margin-bottom: 0.5rem;
@@ -188,29 +229,40 @@
       display: flex;
       flex-direction: column;
     }
-    
-    
-    
+
     #songs li .title {
       font-weight: bold;
     }
-    
+
+    #songs li .title mark {
+      background-color: var(--highlight-color);
+      color: var(--text-color);
+      border-radius: 3px;
+      padding: 0 1px;
+    }
+
     #songs li .artist {
       color: var(--highlight-color);
     }
-    
+
     #songs li .preview {
       font-style: italic;
       color: var(--text-color);
       opacity: 0.8;
       margin-top: 0.3rem;
     }
-    
+
+    #songs li.load-error {
+      cursor: default;
+      text-align: center;
+      opacity: 0.8;
+    }
+
     #song-title {
       margin-bottom: 0.2rem;
       font-size: 1.4rem;
     }
-    
+
     #song-artist {
       margin-bottom: 0.6rem;
       font-size: 1rem;
@@ -218,16 +270,73 @@
       color: var(--highlight-color);
       cursor: pointer;
     }
-    
-    #song-artist:hover {
+
+    #song-artist span:hover {
       text-decoration: underline;
     }
-    
+
     #song-lyrics {
       white-space: pre-wrap;
       word-wrap: break-word;
       font-size: 0.9rem;
       line-height: 1.4;
+    }
+
+    /* Opt-in readable font for the lyrics */
+    body.readable-font #song-lyrics {
+      font-family: var(--font-readable);
+      line-height: 1.65;
+      max-width: 40rem;
+    }
+
+    /* Font-size controls (kept in the accent colour) */
+    #lyrics-controls {
+      display: none;
+      gap: 0.4rem;
+      margin-bottom: 0.6rem;
+    }
+
+    body.has-song #lyrics-controls {
+      display: flex;
+    }
+
+    #lyrics-controls button {
+      background-color: transparent;
+      color: var(--text-color);
+      opacity: 0.55;
+      border: 1px solid var(--checkbox-bg);
+      border-radius: 5px;
+      padding: 0.25rem 0.6rem;
+      cursor: pointer;
+      font-weight: bold;
+      line-height: 1;
+      transition: opacity 0.2s ease, background-color 0.2s ease;
+    }
+
+    #lyrics-controls button:hover {
+      opacity: 1;
+      background-color: var(--checkbox-bg);
+    }
+
+    /* Desktop empty state */
+    #lyrics-placeholder {
+      display: none;
+    }
+
+    .placeholder-logo {
+      width: 96px;
+      height: auto;
+      opacity: 0.5;
+      margin-bottom: 1rem;
+    }
+
+    #lyrics-placeholder p {
+      opacity: 0.7;
+      font-size: 1.1rem;
+    }
+
+    body.has-song #lyrics-placeholder {
+      display: none !important;
     }
 
     footer {
@@ -236,30 +345,38 @@
       padding: 0.5rem;
       text-align: center;
       margin-top: auto;
-      height: 5vh;
     }
-    
+
     @media (min-width: 768px) {
       #content {
         display: flex;
+        overflow: hidden;
       }
-    
+
       #song-list {
         width: 40%;
-        height: 79vh; /* Adjust based on your header and footer height */
+        height: 100%;
         overflow-y: auto;
       }
-    
+
       #lyrics-display {
         width: 60%;
-        height: 79vh; /* Adjust based on your header and footer height */
-        position:relative;
-        right: 0;
+        height: 100%;
         overflow-y: auto;
         padding-right: 0.5rem;
         background-color: var(--bg-color);
       }
-    
+
+      /* Center the empty-state in the lyrics pane until a song is chosen */
+      body:not(.has-song) #lyrics-placeholder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+      }
+
       #back-button {
         display: none;
       }
@@ -292,14 +409,15 @@
       width: 48px;
       height: 24px;
       margin-left: 8px;
+      flex: none;
     }
-    
+
     .switch input {
       opacity: 0;
       width: 0;
       height: 0;
     }
-    
+
     .slider {
       position: absolute;
       cursor: pointer;
@@ -311,7 +429,7 @@
       transition: .3s;
       border-radius: 24px;
     }
-    
+
     .slider:before {
       position: absolute;
       content: "";
@@ -323,16 +441,14 @@
       transition: .3s;
       border-radius: 50%;
     }
-    
+
     input:checked + .slider {
       background-color: var(--checkbox-checked-bg);
     }
-    
+
     input:checked + .slider:before {
       transform: translateX(24px);
     }
-
-    
 
     .play-button {
       background-color: var(--highlight-color);
@@ -342,17 +458,18 @@
       padding: 10px;
       cursor: pointer;
       transition: all 0.2s ease-in-out;
-    }
-  
-    .play-button:hover {
-      background-color: darken(var(--highlight-color), 10%); 
-    }
-  
-    /* Optional: Add a subtle box-shadow */
-    .play-button {
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
+    .play-button:hover {
+      background-color: var(--checkbox-checked-bg);
+    }
+
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+    }
 
     #songs li.selected {
       background-color: #291551 !important; /* Use a darker shade for selection */
@@ -370,48 +487,3 @@
 #songs li:hover {
   background-color: #291551;
 }
-
-  /* Highlighted search match in song titles */
-  #songs li .title mark {
-    background-color: var(--highlight-color);
-    color: var(--text-color);
-    border-radius: 3px;
-    padding: 0 1px;
-  }
-
-  /* Result count shown above the list while searching */
-  #result-count {
-    font-size: 0.8rem;
-    opacity: 0.7;
-    padding: 0 0.2rem 0.4rem;
-  }
-
-  /* Load failure message */
-  #songs li.load-error {
-    cursor: default;
-    text-align: center;
-    opacity: 0.8;
-  }
-
-  /* Lyrics font-size controls */
-  #lyrics-controls {
-    display: flex;
-    gap: 0.4rem;
-    margin-bottom: 0.6rem;
-  }
-
-  #lyrics-controls button {
-    background-color: var(--highlight-color);
-    color: var(--text-color);
-    border: none;
-    border-radius: 5px;
-    padding: 0.25rem 0.6rem;
-    cursor: pointer;
-    font-weight: bold;
-    line-height: 1;
-  }
-
-  #lyrics-controls button:hover {
-    background-color: var(--checkbox-checked-bg);
-  }
-

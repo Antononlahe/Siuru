@@ -18,6 +18,12 @@
         </a>
           <h1 class="app-name">Vironia lauluraamat</h1>
         </div>
+        <div class="header-actions">
+        <button id="font-toggle" class="mode-toggle" aria-label="Vaheta kirjastiili" title="Loetavam kiri">
+          <svg class="font-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <text x="12" y="19" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700">A</text>
+          </svg>
+        </button>
         <button id="mode-toggle" class="mode-toggle" aria-label="Toggle dark/light mode">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mode-icon">
             <circle cx="12" cy="12" r="5"></circle>
@@ -32,11 +38,14 @@
             
           </svg>
         </button>
+        </div>
       </header>
       <div id="search-container">
         <div id="search-input-container">
-          <input type="text" id="search-bar" placeholder="Otsi laulu..." autofocus>
-          <button id="clear-search">Kustuta</button>
+          <div class="search-field">
+            <input type="text" id="search-bar" placeholder="Otsi laulu..." autofocus>
+            <button id="clear-search" aria-label="Kustuta otsing" title="Kustuta otsing">✕</button>
+          </div>
           <button id="back-button">
             <svg xmlns="http://www.w3.org/2000/svg" width=3vw height=3vw viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
               <path d="M19 12H5M12 19l-7-7 7-7"/>
@@ -57,6 +66,10 @@
             <ul id="songs"></ul>
         </div>
         <div id="lyrics-display">
+            <div id="lyrics-placeholder">
+              <img src="laulik.png" alt="" class="placeholder-logo">
+              <p>Vali laul nimekirjast</p>
+            </div>
             <h2 id="song-title"></h2>
             <h3 id="song-artist"></h3>
             <div id="lyrics-controls">

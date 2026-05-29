@@ -252,6 +252,8 @@ function setupAudioPlayer(song) {
 }
 
 function updateLyricsContent(song) {
+    // Reveals the lyrics pane and hides the desktop "pick a song" placeholder.
+    document.body.classList.add('has-song');
     document.getElementById('song-title').textContent = song.title;
     const artistElement = document.getElementById('song-artist');
     artistElement.innerHTML = '';
@@ -378,6 +380,7 @@ function performSearch() {
     }
 
     console.log('Search term:', searchTerm, 'Results:', filteredSongs.length);
+    document.getElementById('clear-search').classList.toggle('visible', searchTerm.length > 0);
     displaySongs(filteredSongs);
 
     // replaceState (not pushState) so typing doesn't flood the history stack
@@ -463,7 +466,7 @@ function updateModeIcon(isLightMode) {
 
 // Lyrics font size: persisted in localStorage, applied to the <pre>. Useful
 // when singing off a phone held at arm's length.
-const MIN_FONT = 0.7, MAX_FONT = 2.0, FONT_STEP = 0.15, DEFAULT_FONT = 0.9;
+const MIN_FONT = 0.7, MAX_FONT = 2.75, FONT_STEP = 0.15, DEFAULT_FONT = 0.9;
 
 function applyLyricsFontSize(size) {
     const clamped = Math.min(MAX_FONT, Math.max(MIN_FONT, size));
@@ -483,6 +486,19 @@ function initializeFontSize() {
     };
 }
 
+// Optional "more readable" lyrics font, toggled from the header and persisted.
+// Default is the original look; this swaps the lyrics to a proportional font.
+function initializeFontToggle() {
+    const fontToggle = document.getElementById('font-toggle');
+    if (localStorage.getItem('font') === 'readable') {
+        document.body.classList.add('readable-font');
+    }
+    fontToggle.addEventListener('click', () => {
+        const readable = document.body.classList.toggle('readable-font');
+        localStorage.setItem('font', readable ? 'readable' : 'default');
+    });
+}
+
 function registerServiceWorker() {
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
@@ -495,6 +511,7 @@ function registerServiceWorker() {
 loadSongs();
 initializeModeToggle();
 initializeFontSize();
+initializeFontToggle();
 registerServiceWorker();
 
 // Add this event listener to handle window resizing
