@@ -10,21 +10,28 @@ The UI language is Estonian (e.g. "Otsi laulu..." = search for a song, "Kustuta"
 
 ## Running locally
 
-There is **no build system, package manager, or test suite** — it's plain HTML/CSS/JS with `js-yaml` pulled from a CDN at runtime.
-
-Because `app.js` fetches `songs.yaml` with `fetch()`, the app **must be served over HTTP** — opening `index.html` via `file://` will fail with a CORS/fetch error. Serve the directory with any static server, e.g.:
+For **local development** there is no build step — it's plain HTML/CSS/JS. Serve the directory with any static server (the app uses `fetch()`, so `file://` won't work):
 
 ```bash
 python3 -m http.server 8000   # then open http://localhost:8000
 ```
 
+In dev, `app.js` loads the song data straight from `songs.yaml`, lazily pulling `js-yaml` from a CDN only for that fallback path.
+
+**Production** is built and served by a Dockerfile (lives outside this repo, alongside it): a `node:alpine` stage minifies the HTML/CSS/JS and converts `songs.yaml` → `songs.json`, then an `nginx:alpine` stage serves the result with gzip. So in production `app.js` fetches the pre-built `songs.json` (native `JSON.parse`, no CDN). The YAML→JSON conversion is the build's job — **do not commit `songs.json`**; keep editing `songs.yaml`.
+
 ## Architecture
 
-- **`index.html`** — the single page. Defines the search bar, song list (`#songs`), lyrics pane (`#lyrics-display`), dark/light toggle, and audio player. Loads `js-yaml` from CDN then `app.js`.
-- **`app.js`** — all application logic (no framework, global `songs` array). On load it fetches `songs.yaml`, parses it, sorts by title with `localeCompare`, renders the list, and applies any URL params.
+- **`index.html`** — the single page. Defines the search bar, song list (`#songs`), lyrics pane (`#lyrics-display`), dark/light toggle, lyrics font-size controls, and audio player.
+- **`app.js`** — all application logic (no framework, global `songs` array). On load `fetchSongs()` tries `songs.json` (production) and falls back to `songs.yaml` (dev); it then sorts by title with `localeCompare`, renders the list, and applies any URL params. Also registers the service worker.
 - **`styles.css`** — styling, including dark/light mode and responsive layout.
-- **`songs.yaml`** — the entire song database (the "backend"). Editing this file is how content is added or changed.
-- **`laulud.html`** — a standalone debug page that lists every song title parsed from `songs.yaml`.
+- **`songs.yaml`** — the entire song database (the "backend") and the source of truth. Editing this file is how content is added or changed.
+- **`sw.js` / `manifest.json` / `icon.svg`** — PWA layer: installable app, offline support via a stale-while-revalidate service worker that precaches the app shell and `songs.json`. Bump `CACHE_VERSION` in `sw.js` when shell assets change. Note service workers only run over HTTPS or `localhost` (not `file://`).
+- **`laulud.html`** — a standalone debug page that lists every song title by string-parsing `songs.yaml`.
+
+### Search internals
+
+Search is accent-insensitive: `fold()` lowercases and maps Estonian diacritics (`õäöüšž`) to their base letters via a **length-preserving** char map, so "ohtu" matches "õhtu". Because the fold is 1:1, the same folded indices are reused by `highlightTitle()` to `<mark>` the match in the original accented title.
 
 ### Song schema (`songs.yaml`)
 

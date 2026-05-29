@@ -5,7 +5,7 @@
 // immediately (fast, offline-capable) while a fresh copy is fetched in the
 // background for next time. Bump CACHE_VERSION to force clients onto new
 // shell assets.
-const CACHE_VERSION = 'vironia-v1';
+const CACHE_VERSION = 'vironia-v2';
 
 const PRECACHE_URLS = [
   './',
@@ -14,8 +14,7 @@ const PRECACHE_URLS = [
   './styles.css',
   './manifest.json',
   './icon.svg',
-  './songs.yaml',
-  'https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js'
+  './songs.json'
 ];
 
 self.addEventListener('install', event => {
